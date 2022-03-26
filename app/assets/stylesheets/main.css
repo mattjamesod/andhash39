@@ -1,0 +1,10 @@
+body {
+	font-family: -apple-system, system-ui, Verdana, sans-serif;
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+header {
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag "main" %>
+
+<h1>All Posts</h1>
+
+<ul>
+  <% @posts.each do |post| %>
+	  <li>
+		<%= link_to post.title, post %>
+	  </li>
+	<% end %>
+</ul>
+
+<%= link_to "New Post", new_post_path %>
