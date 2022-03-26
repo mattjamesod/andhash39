@@ -14,8 +14,12 @@ header h1 {
 	margin-top: 0px;
 }
 
+header p {
+	padding-bottom: 10px
+}
+
 nav {
-	background-color: #8cc3a0;
+	background-color: #e9da90;
 	color: #000000;
 	padding-top: 10px;
 }
