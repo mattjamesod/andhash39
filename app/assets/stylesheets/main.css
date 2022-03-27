@@ -20,7 +20,10 @@ header p {
 
 nav {
 	background-color: hsl(31, 94%, 61%);
-	padding-top: 10px;
+}
+
+nav.admin {
+	background-color: hsl(241, 64%, 63%);
 }
 
 nav a {
@@ -35,9 +38,9 @@ nav a:hover {
 	color: hsl(70, 90%, 22%);
 }
 
-/* nav a.active {
-	text-decoration: underline;
-} */
+.centered {
+	text-align: center; 
+}
 
 #main {
 	max-width: 620px;
