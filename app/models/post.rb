@@ -9,6 +9,10 @@ class Post < ApplicationRecord
 		markdown.render(title)
 	end
 	
+	def date
+		created_at.strftime("%B %d %Y, %I:%M %p")
+	end
+	
 	def body_as_html
 		markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {})
 		markdown.render(body)
