@@ -4,8 +4,8 @@ body {
 }
 
 header {
-	text-align: center;
-	background-color: #5a4ca8;
+	text-align: center; 
+	background-color: hsl(70, 11%, 11%);
 	color: #ffffff;
 	padding-top: 15px;
 }
@@ -19,8 +19,7 @@ header p {
 }
 
 nav {
-	background-color: #e9da90;
-	color: #000000;
+	background-color: hsl(31, 94%, 61%);
 	padding-top: 10px;
 }
 
@@ -29,7 +28,16 @@ nav a {
 	text-decoration: none;
 	padding: 0.5em 1.5em 0.5em 1.5em;
 	font-weight: bold;
+	color: hsl(70, 11%, 11%);
 }
+
+nav a:hover {
+	color: hsl(70, 90%, 22%);
+}
+
+/* nav a.active {
+	text-decoration: underline;
+} */
 
 #main {
 	max-width: 620px;
