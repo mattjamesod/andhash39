@@ -12,7 +12,7 @@
 
   <body>
     <header>
-      <%= render "/header" %>
+      <%= render Current.user ? "/admin_header" : "/header" %>
     </header>
     <div id="main">
       <%= yield %>

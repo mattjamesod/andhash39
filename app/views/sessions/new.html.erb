@@ -1,0 +1,18 @@
+<h1>Log In</h1>
+
+<%= form_with url: login_path do |f| %>
+	<p> 
+		<%= f.label 'username:'%>
+		<br>
+		<%= f.text_field :email, id: 'email' %>
+	</p>
+	
+	<p>
+		<%= f.label 'password:'%>
+		<br>
+		<%= f.password_field :password, id: 'password' %>
+	</p>
+	<p>
+		<%= f.submit 'Log In' %>
+	</p>
+<% end %>
