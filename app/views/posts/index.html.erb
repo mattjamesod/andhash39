@@ -5,7 +5,7 @@
 <ul>
   <% @posts.each do |post| %>
 	  <li>
-		<%= link_to post.title, post %>
+		<%= link_to (sanitize post.title_as_html), post %>
 	  </li>
 	<% end %>
 </ul>

@@ -6,7 +6,9 @@ class PostsController < ApplicationController
   def most_recent
     @post = Post.order(:created_at).last
     
-    redirect_to @post
+    redirect_to @post if @post
+    
+    redirect_to action: "index"
   end
   
   def show

@@ -1,6 +1,4 @@
-<h1><%= @post.title %></h1>
-
-<p><%= @post.body %></p>
+<%= sanitize @post.body_as_html %>
 
 <ul>
   <li><%= link_to "Edit", edit_post_path(@post) %></li>
