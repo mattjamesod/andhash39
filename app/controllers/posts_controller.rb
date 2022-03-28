@@ -5,6 +5,11 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
   
+  def ribbon
+    @posts = Post.all
+    render "ribbon"
+  end
+  
   def most_recent
     @post = Post.order(:created_at).last
     

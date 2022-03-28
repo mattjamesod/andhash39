@@ -1,0 +1,7 @@
+<% @posts.each do |post| %>	
+	<div id="centered">
+		<h1><%= sanitize post.title_as_html %></h1>
+		<p><i><%= post.date %></i></p>
+	</div>
+	<%= sanitize post.body_as_html %>
+<% end %>
