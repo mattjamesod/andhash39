@@ -10,4 +10,6 @@
 	<% end %>
 </ul>
 
-<%= link_to "New Post", new_post_path %>
+<% if Current.user %>
+	<%= link_to "New Post", new_post_path %>
+<% end %>

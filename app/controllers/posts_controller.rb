@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  before_action :user_must_be_logged_in, only: [:new, :create, :edit, :update, :destroy]
+  
   def index
     @posts = Post.all
   end
