@@ -55,3 +55,9 @@ nav a:hover {
 	margin: 0 auto;
 	padding: 1em;
 }
+
+#backButton {
+	max-width: 800px;
+	margin: 0;
+	padding: 0em;
+}
