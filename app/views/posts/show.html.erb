@@ -1,13 +1,14 @@
-<h1 class="centered"><%= sanitize @post.title_as_html %></h1>
-
-<p class="centered"><i><%= @post.date %></i></p>
+<div id="centered">
+	<h1><%= sanitize @post.title_as_html %></h1>
+	<p><i><%= @post.date %></i></p>
+	<% if Current.user %>
+		<%= link_to "Edit", edit_post_path(@post) %>
+		<%= link_to "Destroy", post_path(@post), data: {
+		  turbo_method: :delete,
+		  turbo_confirm: "Are you sure?"
+	  	} %>
+	<% end %>
+</div>
 
 <%= sanitize @post.body_as_html %>
 
-<ul>
-  <li><%= link_to "Edit", edit_post_path(@post) %></li>
-  <li><%= link_to "Destroy", post_path(@post), data: {
-	  turbo_method: :delete,
-	  turbo_confirm: "Are you sure?"
-	} %></li>
-</ul>

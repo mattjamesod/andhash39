@@ -38,8 +38,16 @@ nav a:hover {
 	color: hsl(70, 90%, 22%);
 }
 
-.centered {
+#centered {
 	text-align: center; 
+}
+
+#centered a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+	font-weight: bold;
+	color: hsl(241, 64%, 63%);
 }
 
 #main {
