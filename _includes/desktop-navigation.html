@@ -1,0 +1,16 @@
+<div class="px-1 absolute">
+  <ul>
+    <li class="relative mx-auto px-6 pb-6">
+      <a href="/">
+        <img class="rounded-lg overflow-hidden" src="/assets/images/profile-skull.png" alt="An image of skull - small, profile picture">
+      </a>
+    </li>
+    <div class="bg-slate-200 dark:bg-slate-800 rounded-lg">
+    {% for item in site.data.navigation %}
+    <li>
+      <a class="flex px-6 py-2 rounded hover:text-gray-900 hover:bg-slate-400 hover:font-bold" href="{{ item.link }}">{{item.name}}</a>
+    </li>
+    {% endfor %}
+  </div>
+  </ul>
+</div>

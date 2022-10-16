@@ -1,0 +1,5 @@
+<div class="flex pb-6 text-center">
+  {% for item in site.data.navigation %}
+    <a class="px-6 py-2 rounded hover:text-gray-900 hover:bg-slate-200 hover:font-bold" href="{{ item.link }}">{{item.name}}</a>
+  {% endfor %}
+</div>
