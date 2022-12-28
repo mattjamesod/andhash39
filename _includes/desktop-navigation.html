@@ -1,16 +1,13 @@
-<div class="px-1 absolute">
+<div class="absolute align-middle">
   <ul>
-    <li class="relative mx-auto px-6 pb-6">
-      <a href="/">
-        <img class="rounded-lg overflow-hidden" src="/assets/images/profile-skull.png" alt="An image of skull - small, profile picture">
-      </a>
-    </li>
-    <div class="bg-slate-200 dark:bg-slate-800 rounded-lg">
+    <div class="border-r-2 border-[#447EC5]>
     {% for item in site.data.navigation %}
-    <li>
-      <a class="flex px-6 py-2 rounded hover:text-gray-900 hover:bg-slate-400 hover:font-bold" href="{{ item.link }}">{{item.name}}</a>
+    <li class="flex py-2">
+      <a class="px-4 ml-auto
+      {% if item.link == page.url %} underline decoration-double {% endif %}
+      hover:underline" href="{{ item.link }}">{{item.name}}</a>
     </li>
     {% endfor %}
-  </div>
+    </div>
   </ul>
 </div>

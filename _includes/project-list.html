@@ -1,0 +1,32 @@
+<ul class="space-y-4">
+	{% for project in site.data.projects %}
+	<li class="bg-[#E5E5EE] dark:bg-[#2A2A2E] 
+			   text-black dark:text-white
+			   rounded-2xl drop-shadow-lg p-6
+			   space-y-2">
+		<div class="flex">
+			<a class="text-[#447EC5]
+					  font-bold text-2xl" href="{{project.link}}">
+				{{ project.name }}
+			</a>
+			{% if project.img %}
+			<div>
+				<a href="{{project.link}}">
+					<img class="rounded-lg border" src="assets/images/{{project.img}}">
+				</a>
+			</div>
+			{% endif %}
+			{% if project.appstore %}
+			<div>
+				<a href="{{project.appstore}}">
+					<img src="assets/images/appstore.svg">
+				</a>
+			</div>
+			{% endif %}
+		</div>
+		<div class="">
+			{{ project.description }}
+		</div>
+	</li>
+	{% endfor %}
+</ul>

@@ -1,6 +1,4 @@
-- name: About 
+- name: Projects 
   link: /
-- name: Apps
-  link: /apps.html
-- name: Twitter
-  link: /twitter.html
+- name: Contact
+  link: /contact.html

@@ -1,5 +1,9 @@
 <div class="flex pb-6 text-center">
-  {% for item in site.data.navigation %}
-    <a class="px-6 py-2 rounded hover:text-gray-900 hover:bg-slate-200 hover:font-bold" href="{{ item.link }}">{{item.name}}</a>
-  {% endfor %}
+  <div class="border-b-2 pb-2 border-[#447EC5]">
+    {% for item in site.data.navigation %}
+      <a class="px-6 py-4 
+      {% if item.link == page.url %} underline decoration-double {% endif %}
+      hover:underline href="{{ item.link }}">{{item.name}}</a>
+    {% endfor %}
+  </div>
 </div>

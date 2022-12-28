@@ -15,17 +15,16 @@
       {% include mobile-navigation.html %}
     </div>
     <div class="sm:pl-40 space-y-6">
-      <div class="space-y-2">
-        <h1 class="text-3xl font-bold font-mono">
-          {{ page.title }}
-        </h1>
-      </div>
+      {% include site-header.html %}
       <div class="text-base space-y-3">
         {{ content }}
       </div>
+      {% if page.included_content %}
+        {% include {{ page.included_content }} %}
+      {% endif %}
     </div>
     <div class="text-sm text-center text-gray-400 pt-20">
-      © 2022 Matthew James O'Donnell - <ins><a href="mailto:andhashthirtynine@gmail.com">Get in Touch</a></ins>
+      © 2022 Matthew James O'Donnell</ins>
     </div>
   </body>
 </html>
