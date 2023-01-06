@@ -5,4 +5,4 @@ subtitle: "The portfolio of a software developer with an invalid name."
 included_content: project-list.html
 ---
 
-I'm not old enough for this to be a blog. Here are the projects I've worked on:
+These are the projects I've worked on.

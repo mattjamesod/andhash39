@@ -1,0 +1,25 @@
+<li class="bg-[#E5E5EE] dark:bg-[#2A2A2E] 
+		   text-black dark:text-white
+		   rounded-2xl drop-shadow-lg p-8
+		   space-y-4">
+
+	{% include project-card-title.html project=include.project %}
+
+	{% if include.project.appstore %}
+		{% include project-card-appstore.html project=include.project %}
+	{% endif %}
+
+	{% if include.project.img %}
+		{% include project-card-image-row.html project=include.project %}
+	{% endif %}
+
+	<div>
+		{{ include.project.description | newline_to_br }}
+		{% if include.project.link %}
+		<br/>
+			<a class="text-[#447EC5] underline" href="{{project.link}}">
+				Learn more about {{ include.project.name }} here
+			</a>
+		{% endif %}
+	</div>
+</li>

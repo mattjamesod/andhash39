@@ -1,33 +1,5 @@
-<ul class="space-y-4">
+<ul class="space-y-8">
 	{% for project in site.data.projects %}
-	<li class="bg-[#E5E5EE] dark:bg-[#2A2A2E] 
-			   text-black dark:text-white
-			   rounded-2xl drop-shadow-lg p-8
-			   space-y-4">
-		<a class="text-[#447EC5]
-				  flex justify-center
-				  font-bold text-4xl" href="{{project.link}}">
-			{{ project.name }}
-		</a>
-		{% if project.appstore %}
-		<div class="flex justify-center">
-			<a href="{{project.appstore}}">
-				<img src="assets/images/appstore.svg">
-			</a>
-		</div>
-		{% endif %}
-			{% if project.img %}
-			<div class="flex space-x-2 px-20">
-				{% for image in project.img %}
-					<a href="{{project.link}}">
-						<img class="rounded-lg border" src="assets/images/{{image}}">
-					</a>
-				{% endfor %}
-			</div>
-			{% endif %}
-			<div class="">
-				{{ project.description | newline_to_br }}
-			</div>
-	</li>
+		{% include project-card.html project=project %}
 	{% endfor %}
 </ul>
