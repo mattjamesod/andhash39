@@ -2,31 +2,32 @@
 	{% for project in site.data.projects %}
 	<li class="bg-[#E5E5EE] dark:bg-[#2A2A2E] 
 			   text-black dark:text-white
-			   rounded-2xl drop-shadow-lg p-6
-			   space-y-2">
-		<div class="flex">
-			<a class="text-[#447EC5]
-					  font-bold text-2xl" href="{{project.link}}">
-				{{ project.name }}
+			   rounded-2xl drop-shadow-lg p-8
+			   space-y-4">
+		<a class="text-[#447EC5]
+				  flex justify-center
+				  font-bold text-4xl" href="{{project.link}}">
+			{{ project.name }}
+		</a>
+		{% if project.appstore %}
+		<div class="flex justify-center">
+			<a href="{{project.appstore}}">
+				<img src="assets/images/appstore.svg">
 			</a>
+		</div>
+		{% endif %}
 			{% if project.img %}
-			<div>
-				<a href="{{project.link}}">
-					<img class="rounded-lg border" src="assets/images/{{project.img}}">
-				</a>
+			<div class="flex space-x-2 px-20">
+				{% for image in project.img %}
+					<a href="{{project.link}}">
+						<img class="rounded-lg border" src="assets/images/{{image}}">
+					</a>
+				{% endfor %}
 			</div>
 			{% endif %}
-			{% if project.appstore %}
-			<div>
-				<a href="{{project.appstore}}">
-					<img src="assets/images/appstore.svg">
-				</a>
+			<div class="">
+				{{ project.description | newline_to_br }}
 			</div>
-			{% endif %}
-		</div>
-		<div class="">
-			{{ project.description }}
-		</div>
 	</li>
 	{% endfor %}
 </ul>
