@@ -1,14 +1,11 @@
 - name: Contextable 
   description: |
-    Contextable is an iPhone app for creating and reviewing flashcards, featuring the ability to record and playback audio, attach text blocks to put your memorable information in context, and customise your review schedule.
+    Contextable is an iPhone app for creating and reviewing flashcards. It lets you record and playback audio, customise your review schedule, and attach text blocks to put your memorable information in context.
 
-    It also features a modern, intuitive user interace built in SwiftUI.
+    It features a modern, intuitive user interace built in SwiftUI.
   img: 
     - player-light-frame.png
     - deck-index-light-frame.png
     - card-index-light-frame.png
   link: https://contextable.app
   appstore: https://apps.apple.com/us/app/contextable/id1622457817
-- name: This Website
-  description: You're looking at it! Made with Jekyll and Tailwind.
-  link: /

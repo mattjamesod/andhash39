@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="icon" type="image/png" href="/favicon.png">
   </head>
-  <body class="font-serif bg-gray-100 dark:bg-gray-900 text-slate-900 dark:text-white p-8">
-    <div class="sm:visible invisible">
+  <body class="font-serif bg-zinc-100 dark:bg-zinc-900 text-slate-900 dark:text-white p-8">
+    <div class="md:visible invisible">
       {% include desktop-navigation.html %}
     </div>
-    <div class="visible sm:invisible sm:hidden">
+    <div class="visible md:invisible md:hidden">
       {% include mobile-navigation.html %}
     </div>
-    <div class="sm:pl-40 space-y-6">
+    <div class="md:pl-40 space-y-6">
       {% include site-header.html %}
       <div class="text-base space-y-3">
         {{ content }}
