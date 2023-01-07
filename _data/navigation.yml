@@ -1,4 +1,8 @@
-- name: Projects 
+- name: Indie Projects 
   link: /
+- name: Team Roles
+  link: /roles.html
+- name: About
+  link: /about.html
 - name: Contact
   link: /contact.html
