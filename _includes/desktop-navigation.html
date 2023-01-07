@@ -1,13 +1,14 @@
-<div>
+<aside class="md:w-44">
   <ul>
-    <div class="border-r-2 border-zinc-200">
+    <div class="fixed">
     {% for item in site.data.navigation %}
-    <li class="flex py-2">
-      <a class="px-4 ml-auto
-      {% if item.link == page.url %} underline decoration-double {% endif %}
+    <li class="py-2 flex justify-end">
+      <a class="pl-12 font-bold 
+      {% if item.link == page.url %} underline text-[#2A2A2E] dark:text-[#447EC5] {% endif %}
+      {% if item.link != page.url %} text-[#E5E5EE] {% endif %}
       hover:underline" href="{{ item.link }}">{{item.name}}</a>
     </li>
     {% endfor %}
     </div>
   </ul>
-</div>
+</aside>
