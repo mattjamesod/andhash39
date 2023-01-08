@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="icon" type="image/png" href="/favicon.png">
+  </head>
+  <body class="font-serif bg-zinc-100 dark:bg-zinc-900 text-slate-900 dark:text-white">
+    <div class="flex">
+      <div class="md:visible invisible bg-[#447EC5] dark:bg-[#2A2A2E] pt-8">
+        {% include desktop-navigation.html %}
+      </div>
+      <div class="space-y-6">
+        <div class="visible md:invisible md:hidden bg-[#447EC5] dark:bg-[#2A2A2E]">
+          {% include mobile-navigation.html %}
+        </div>
+        <div class="px-6 space-y-6">
+        {% include site-header.html %}
+        <div class="md:flex space-y-6 md:space-y-0">
+          <div class="md:w-64 px-32 md:px-0 flex-none">
+            <img src="assets/images/profile-2022-03.jpeg">
+          </div>
+          <div class="text-base space-y-3 md:px-12">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+      <div class="text-sm text-center text-gray-400 py-10">
+        © 2022 Matthew James O'Donnell</ins>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

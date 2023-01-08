@@ -1,0 +1,5 @@
+<ul class="space-y-8">
+	{% for role in site.data.roles %}
+		{% include project-card.html project=role %}
+	{% endfor %}
+</ul>
