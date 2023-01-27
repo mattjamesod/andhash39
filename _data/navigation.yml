@@ -1,6 +1,6 @@
-- name: Indie Projects 
+- name: About
   link: /
+- name: Indie Projects 
+  link: /projects.html
 - name: Experience
   link: /roles.html
-- name: About
-  link: /about.html

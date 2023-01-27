@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="icon" type="image/png" href="/favicon.png">
   </head>
-  <body class="font-serif bg-zinc-100 dark:bg-zinc-900 text-slate-900 dark:text-white">
+  <body class="font-sans bg-zinc-100 dark:bg-zinc-900 text-slate-900 dark:text-white">
     <div class="flex">
       <div class="md:visible invisible bg-[#447EC5] dark:bg-[#2A2A2E] pt-8">
         {% include desktop-navigation.html %}
@@ -17,18 +17,19 @@
           {% include mobile-navigation.html %}
         </div>
         <div class="px-6 space-y-6">
-        {% include site-header.html %}
-        <div class="text-base space-y-3 md:px-12">
-          {{ content }}
+          {% include site-header.html %}
+          <div class="text-base space-y-3 md:px-12">
+            {{ content }}
+          </div>
+          <div class="md:px-16">
+            {% if page.included_content %}
+              {% include {{ page.included_content }} %}
+            {% endif %}
+          </div>
         </div>
-        <div class="md:px-16">
-          {% if page.included_content %}
-            {% include {{ page.included_content }} %}
-          {% endif %}
-        </div>
-      </div>
       <div class="text-sm text-center text-gray-400 py-10">
-        © 2022 Matthew James O'Donnell</ins>
+        © 2022 Matthew James O'Donnell
+        <a rel="me" class="invisible" href="https://mastodon.social/@andhash39">Mastodon</a>
       </div>
       </div>
     </div>
