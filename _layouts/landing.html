@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>It&#38;&#35;39&#59;s Not Difficult</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="icon" type="image/png" href="/favicon.png">
+  </head>
+
+  <!-- Main Content -->
+
+  <body class="font-sans">
+      <div class="bg-amber-200 text-black" >
+        {% include site-header.html %}
+      </div>
+
+      <!-- Personal -->
+      <div class="
+        p-8 space-y-16
+        bg-amber-200
+        text-black"
+      >
+        <div class="
+          container mx-auto
+          max-w-4xl sm:flex sm:flex-row sm:space-x-16"
+        >
+          <!-- Image -->
+
+          <!-- <div class="my-auto"> -->
+            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg my-auto">
+              <img class="rounded-full" src="assets/images/profile-face.jpg">
+            </div>
+          <!-- </div> -->
+
+          <!-- Text -->
+
+          <div class="space-y-4 my-auto">
+            <p class="text-4xl font-semibold font-serif">Hi there! 👋🇬🇧</p>
+            <p>I'm Matt O'Donnell, a London-based rubyist and iOS developer. You would be amazed how many websites can't handle apostrophes.</p>
+
+            <p>I make apps for Apple platforms; you can find them below.</p>
+
+            <p>If you want to know more about me or my work, you have some options:</p>
+
+            <div class="flex space-x-1">
+              <p class="font-semibold">Email me:</p>
+              <a
+                href="mailto:andhashthirtynine@gmail.com"
+                class="text-blue-600 visited:text-purple-600 underline"
+              >
+                andhashthirtynine@gmail.com
+              </a>
+            </div>
+
+            <div class="flex space-x-1">
+              <p class="font-semibold">Mastodon:</p>
+              <a
+                rel="me" href="https://mastodon.social/@andhash39"
+                class="text-blue-600 visited:text-purple-600 underline"
+              >
+                andhash39@mastodon.social
+              </a>
+              <p>(Tech 👨‍💻)</p>
+            </div>
+
+            <div class="flex space-x-1">
+              <p class="font-semibold">Instagram:</p>
+              <a
+                href="https://www.instagram.com/mattjamesod/"
+                class="text-blue-600 visited:text-purple-600 underline"
+              >
+                mattjamesod@instagram.com
+              </a>
+              <p>(Photopgraphy 📸)</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="
+          text-center font-semibold font-serif
+          hover:text-amber-400"
+        >
+          <button onclick="scrollToProjects();">
+            <p class="text-xl">Check out my projects!</p>
+            <p class="text-2xl">&#x25BC;</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Contextable -->
+      <div id="projectsStart" class="
+        p-16
+        bg-sky-900
+        text-white"
+      >
+        <div class="
+          container mx-auto
+          max-w-4xl sm:flex sm:flex-row-reverse
+          sm:space-x-16 sm:space-x-reverse"
+        >
+
+          <div class="md:flex my-auto">
+            <!-- Image 1 -->
+            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+              <img class="rounded-2xl" src="assets/images/player-light-frame.png">
+            </div>
+
+            <!-- Image 2 -->
+            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+              <img class="rounded-2xl" src="assets/images/card-index-light-frame.png">
+            </div>
+
+          </div>
+
+
+          <!-- Text -->
+
+          <div class="space-y-4 my-auto">
+            <p class="text-4xl font-semibold font-serif">Contextable 🧠</p>
+
+            <p>Contextable is an iPhone app for creating and reviewing flashcards. It lets you  record and playback audio, customise your review schedule, and attach text blocks to   put your memorable information in context.</p>
+
+            <p>It features a modern, intuitive user interace built in SwiftUI.</p>
+
+            <!-- <div > -->
+              <a
+                href="https://apps.apple.com/us/app/contextable/id1622457817"
+                class="inline-block"
+              >
+                <img src="/assets/images/appstore.svg"></img>
+              </a>
+            <!-- </div> -->
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Thoughograph -->
+      <div class="
+        p-16
+        bg-teal-400
+        text-black"
+      >
+        <div class="
+          container mx-auto
+          max-w-4xl sm:flex sm:flex-row
+          sm:space-x-16 sm:space-x"
+        >
+
+          <div class="md:flex my-auto">
+            <!-- Image 1 -->
+            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+              <img class="rounded-2xl" src="assets/images/player-light-frame.png">
+            </div>
+
+            <!-- Image 2 -->
+            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+              <img class="rounded-2xl" src="assets/images/card-index-light-frame.png">
+            </div>
+
+          </div>
+
+
+          <!-- Text -->
+
+          <div class="space-y-4 my-auto">
+            <p class="text-4xl font-semibold font-serif">Thoughtograph 💡</p>
+
+            <p>Contextable is an iPhone app for creating and reviewing flashcards. It lets you  record and playback audio, customise your review schedule, and attach text blocks to   put your memorable information in context.</p>
+
+            <p>It features a modern, intuitive user interace built in SwiftUI.</p>
+
+            <div class="flex space-x-2">
+              <a
+                href="https://apps.apple.com/us/app/contextable/id1622457817"
+                class="inline-block"
+              >
+                <img src="/assets/images/appstore.svg"></img>
+              </a>
+              <a
+                href="https://apps.apple.com/us/app/contextable/id1622457817"
+                class="inline-block"
+              >
+                <img src="/assets/images/appstore-mac.svg"></img>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        {% include copyright-footer.html %}
+
+      </div>
+
+  </body>
+
+</html>
+
+<script>
+
+function scrollToProjects() {
+  const element = document.querySelector('#projectsStart')
+  const topPos = element.getBoundingClientRect().top + window.pageYOffset
+
+  window.scrollTo({
+    top: topPos, // scroll so that the element is at the top of the view
+    behavior: 'smooth' // smooth scroll
+  })
+}
+
+</script>

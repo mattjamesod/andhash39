@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>It&#38;&#35;39&#59;s Not Difficult</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="icon" type="image/png" href="/favicon.png">
+  </head>
+
+  <!-- Main Content -->
+
+  <body class="font-sans">
+
+    <div class="bg-amber-200 text-black" >
+      {% include site-header.html %}
+    </div>
+
+    <!-- Contextable -->
+
+    <div id="projectsStart" class="
+      p-16
+      bg-sky-900
+      text-white"
+    >
+
+      <div class="text-4xl" >
+        {% include home-button.html %}
+      </div>
+
+      <div class="
+        container mx-auto
+        max-w-4xl sm:flex sm:flex-row-reverse
+        sm:space-x-16 sm:space-x-reverse"
+      >
+
+        <div class="md:flex my-auto">
+          <!-- Image 1 -->
+          <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+            <img class="rounded-2xl" src="assets/images/player-light-frame.png">
+          </div>
+
+          <!-- Image 2 -->
+          <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+            <img class="rounded-2xl" src="assets/images/card-index-light-frame.png">
+          </div>
+
+        </div>
+
+
+        <!-- Text -->
+
+        <div class="space-y-4 my-auto">
+          <p class="text-4xl font-semibold font-serif">Contextable 🧠</p>
+
+          <p>Contextable is an iPhone app for creating and reviewing flashcards. It lets you  record and playback audio, customise your review schedule, and attach text blocks to   put your memorable information in context.</p>
+
+          <p>It features a modern, intuitive user interace built in SwiftUI.</p>
+
+          <!-- <div > -->
+            <a
+              href="https://apps.apple.com/us/app/contextable/id1622457817"
+              class="inline-block"
+            >
+              <img src="/assets/images/appstore.svg"></img>
+            </a>
+          <!-- </div> -->
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

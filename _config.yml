@@ -1,4 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://andhash39.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "andhash39" # the name of your site, e.g. ACME Corp.
 
@@ -7,3 +7,9 @@ plugins:
 
 postcss:
   cache: false
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
