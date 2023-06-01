@@ -1,17 +1,25 @@
-<div class="p-8 space-y-2 font-serif text-8xl font-bold ">
-  <h1 class="flex justify-center">
-    It
-    <button id="home" class="hover:text-amber-400">&#38;&#35;39&#59;</button>
-    s Not Difficult.
-  </h1>
+<div class="p-8 flex flex-col items-center">
+  <button id="home">
+    <h1
+      class="flex font-serif lg:text-8xl md:text-6xl text-4xl font-bold hover:text-slate-700"
+      onmouseover="addHighlight()"
+      onmouseleave="removeHighlight()"
+    >
+        It<p id="andHash">&#38;&#35;39&#59;</p>s Not Difficult.
+    </h1>
+  </button>
 </div>
 
 <script type="text/javascript">
-    document.getElementById("home").onclick = function () {
-        location.href = "/";
-    };
+  document.getElementById("home").onclick = function () {
+    location.href = "/";
+  };
 
-    document.getElementById("back").onclick = function () {
-        location.href = "/";
-    };
+  function addHighlight() {
+    document.getElementById("andHash").classList.add("underline")
+  }
+
+  function removeHighlight() {
+    document.getElementById("andHash").classList.remove("underline");
+  }
 </script>

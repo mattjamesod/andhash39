@@ -10,28 +10,26 @@
 
   <!-- Main Content -->
 
-  <body class="font-sans">
-      <div class="bg-amber-200 text-black" >
+  <body class="font-sans text-slate-900">
+      <div class="bg-amber-200" >
         {% include site-header.html %}
       </div>
 
       <!-- Personal -->
       <div class="
         p-8 space-y-16
-        bg-amber-200
-        text-black"
+        bg-amber-200"
       >
         <div class="
-          container mx-auto
-          max-w-4xl sm:flex sm:flex-row sm:space-x-16"
+          mx-auto
+          max-w-4xl md:flex md:flex-row md:space-x-16
+          md:space-y-0 space-y-8"
         >
           <!-- Image -->
 
-          <!-- <div class="my-auto"> -->
-            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg my-auto">
-              <img class="rounded-full" src="assets/images/profile-face.jpg">
-            </div>
-          <!-- </div> -->
+          <div class="flex-none w-64 mx-auto md:px-0 drop-shadow-lg my-auto">
+            <img class="rounded-full" src="assets/images/profile-face.jpg">
+          </div>
 
           <!-- Text -->
 
@@ -44,9 +42,9 @@
             <p>If you want to know more about me or my work, you have some options:</p>
 
             <div class="flex space-x-1">
-              <p class="font-semibold">Email me:</p>
+              <p class="font-semibold">Email:</p>
               <a
-                href="mailto:andhashthirtynine@gmail.com"
+                href="mailto:andhash39@gmail.com"
                 class="text-blue-600 visited:text-purple-600 underline"
               >
                 andhashthirtynine@gmail.com
@@ -72,7 +70,7 @@
               >
                 mattjamesod@instagram.com
               </a>
-              <p>(Photopgraphy 📸)</p>
+              <p>(Photography 📸)</p>
             </div>
 
           </div>
@@ -81,7 +79,7 @@
 
         <div class="
           text-center font-semibold font-serif
-          hover:text-amber-400"
+          hover:text-slate-700"
         >
           <button onclick="scrollToProjects();">
             <p class="text-xl">Check out my projects!</p>
@@ -92,25 +90,25 @@
       </div>
 
       <!-- Contextable -->
-      <div id="projectsStart" class="
+      <div id="contextable" class="
         p-16
         bg-sky-900
         text-white"
       >
         <div class="
           container mx-auto
-          max-w-4xl sm:flex sm:flex-row-reverse
-          sm:space-x-16 sm:space-x-reverse"
+          max-w-4xl md:flex md:flex-row-reverse
+          md:space-x-16 md:space-x-reverse"
         >
 
           <div class="md:flex my-auto">
             <!-- Image 1 -->
-            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
               <img class="rounded-2xl" src="assets/images/player-light-frame.png">
             </div>
 
             <!-- Image 2 -->
-            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
               <img class="rounded-2xl" src="assets/images/card-index-light-frame.png">
             </div>
 
@@ -120,20 +118,24 @@
           <!-- Text -->
 
           <div class="space-y-4 my-auto">
-            <p class="text-4xl font-semibold font-serif">Contextable 🧠</p>
+            <div class="flex space-x-2 text-4xl font-semibold font-serif">
+              <a
+                href="/contextable"
+                class="hover:underline hover:text-slate-200">Contextable
+              </a>
+              <p>🧠</p>
+            </div>
 
             <p>Contextable is an iPhone app for creating and reviewing flashcards. It lets you  record and playback audio, customise your review schedule, and attach text blocks to   put your memorable information in context.</p>
 
             <p>It features a modern, intuitive user interace built in SwiftUI.</p>
 
-            <!-- <div > -->
-              <a
-                href="https://apps.apple.com/us/app/contextable/id1622457817"
-                class="inline-block"
-              >
-                <img src="/assets/images/appstore.svg"></img>
-              </a>
-            <!-- </div> -->
+            <a
+              href="https://apps.apple.com/us/app/contextable/id1622457817"
+              class="inline-block"
+            >
+              <img src="/assets/images/appstore.svg"></img>
+            </a>
           </div>
 
         </div>
@@ -141,25 +143,25 @@
       </div>
 
       <!-- Thoughograph -->
-      <div class="
+      <div id="thoughtograph" class="
         p-16
         bg-teal-400
         text-black"
       >
         <div class="
           container mx-auto
-          max-w-4xl sm:flex sm:flex-row
-          sm:space-x-16 sm:space-x"
+          max-w-4xl md:flex md:flex-row
+          md:space-x-16 md:space-x"
         >
 
           <div class="md:flex my-auto">
             <!-- Image 1 -->
-            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
               <img class="rounded-2xl" src="assets/images/player-light-frame.png">
             </div>
 
             <!-- Image 2 -->
-            <div class="sm:w-64 px-32 sm:px-0 flex-none drop-shadow-lg">
+            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
               <img class="rounded-2xl" src="assets/images/card-index-light-frame.png">
             </div>
 
@@ -175,19 +177,9 @@
 
             <p>It features a modern, intuitive user interace built in SwiftUI.</p>
 
-            <div class="flex space-x-2">
-              <a
-                href="https://apps.apple.com/us/app/contextable/id1622457817"
-                class="inline-block"
-              >
-                <img src="/assets/images/appstore.svg"></img>
-              </a>
-              <a
-                href="https://apps.apple.com/us/app/contextable/id1622457817"
-                class="inline-block"
-              >
-                <img src="/assets/images/appstore-mac.svg"></img>
-              </a>
+            <div class="flex space-x-2 contrast-50">
+              <img src="/assets/images/appstore.svg"></img>
+              <img src="/assets/images/appstore-mac.svg"></img>
             </div>
           </div>
 
@@ -204,7 +196,7 @@
 <script>
 
 function scrollToProjects() {
-  const element = document.querySelector('#projectsStart')
+  const element = document.querySelector('#contextable')
   const topPos = element.getBoundingClientRect().top + window.pageYOffset
 
   window.scrollTo({
