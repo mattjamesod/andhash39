@@ -1,6 +1,7 @@
 ---
 layout: basic
 title: "Terms of Use"
+color: sky
 ---
 
 <p>Terms of Use (“Terms”) govern your use of the Contextable application ("Contextable" or “Application”) operated by Matthew James O'Donnell (“I” or “me”).</p>
@@ -31,4 +32,4 @@ title: "Terms of Use"
 
 <h2 class="text-2xl font-bold font-serif">Contact</h2>
 
-<p>If you have any questions about these terms, please email <ins>[feedback@contextable.app](mailto:feedback@contextable.app)</ins></p>
+<p>If you have any questions about these terms, please email <a href="mailto:feedback@contextable.app" class="underline">feedback@contextable.app</a></p>

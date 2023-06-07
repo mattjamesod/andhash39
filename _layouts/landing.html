@@ -10,8 +10,8 @@
 
   <!-- Main Content -->
 
-  <body class="font-sans text-slate-900">
-      <div class="bg-amber-200" >
+  <body class="font-sans bg-amber-200  text-slate-900">
+      <div>
         {% include site-header.html %}
       </div>
 
@@ -37,7 +37,7 @@
             <p class="text-4xl font-semibold font-serif">Hi there! 👋🇬🇧</p>
             <p>I'm Matt O'Donnell, a London-based rubyist and iOS developer. You would be amazed how many websites can't handle apostrophes.</p>
 
-            <p>I make apps for Apple platforms; you can find them below.</p>
+            <p>I work for <a href="https://freeagent.com" class="text-blue-600 visited:text-purple-600 underline">FreeAgent</a>, where we make a great web app for managing your finances as a small business. I also make apps for Apple platforms; you can find them below.</p>
 
             <p>If you want to know more about me or my work, you have some options:</p>
 
@@ -89,105 +89,7 @@
 
       </div>
 
-      <!-- Contextable -->
-      <div id="contextable" class="
-        p-16
-        bg-sky-900
-        text-white"
-      >
-        <div class="
-          container mx-auto
-          max-w-4xl md:flex md:flex-row-reverse
-          md:space-x-16 md:space-x-reverse"
-        >
-
-          <div class="md:flex my-auto">
-            <!-- Image 1 -->
-            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
-              <img class="rounded-2xl" src="assets/images/player-light-frame.png">
-            </div>
-
-            <!-- Image 2 -->
-            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
-              <img class="rounded-2xl" src="assets/images/card-index-light-frame.png">
-            </div>
-
-          </div>
-
-
-          <!-- Text -->
-
-          <div class="space-y-4 my-auto">
-            <div class="flex space-x-2 text-4xl font-semibold font-serif">
-              <a
-                href="/contextable"
-                class="hover:underline hover:text-slate-200">Contextable
-              </a>
-              <p>🧠</p>
-            </div>
-
-            <p>Contextable is an iPhone app for creating and reviewing flashcards. It lets you  record and playback audio, customise your review schedule, and attach text blocks to   put your memorable information in context.</p>
-
-            <p>It features a modern, intuitive user interace built in SwiftUI.</p>
-
-            <a
-              href="https://apps.apple.com/us/app/contextable/id1622457817"
-              class="inline-block"
-            >
-              <img src="/assets/images/appstore.svg"></img>
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- Thoughograph -->
-      <div id="thoughtograph" class="
-        p-16
-        bg-teal-400
-        text-black"
-      >
-        <div class="
-          container mx-auto
-          max-w-4xl md:flex md:flex-row
-          md:space-x-16 md:space-x"
-        >
-
-          <div class="md:flex my-auto">
-            <!-- Image 1 -->
-            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
-              <img class="rounded-2xl" src="assets/images/player-light-frame.png">
-            </div>
-
-            <!-- Image 2 -->
-            <div class="md:w-64 px-32 md:px-0 flex-none drop-shadow-lg">
-              <img class="rounded-2xl" src="assets/images/card-index-light-frame.png">
-            </div>
-
-          </div>
-
-
-          <!-- Text -->
-
-          <div class="space-y-4 my-auto">
-            <p class="text-4xl font-semibold font-serif">Thoughtograph 💡</p>
-
-            <p>Contextable is an iPhone app for creating and reviewing flashcards. It lets you  record and playback audio, customise your review schedule, and attach text blocks to   put your memorable information in context.</p>
-
-            <p>It features a modern, intuitive user interace built in SwiftUI.</p>
-
-            <div class="flex space-x-2 contrast-50">
-              <img src="/assets/images/appstore.svg"></img>
-              <img src="/assets/images/appstore-mac.svg"></img>
-            </div>
-          </div>
-
-        </div>
-
-        {% include copyright-footer.html %}
-
-      </div>
+      {% include contextable-block.html %}
 
   </body>
 

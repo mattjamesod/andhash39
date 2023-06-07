@@ -1,6 +1,7 @@
 ---
 layout: basic
 title: "Privacy Policy"
+color: sky
 ---
 
 <h2 class="text-2xl font-bold font-serif">Personally Identifying Information</h2>
@@ -19,4 +20,4 @@ title: "Privacy Policy"
 
 <h2 class="text-2xl font-bold font-serif">Contact</h2>
 
-<p>If you have any questions about this policy, please email <ins>[privacy@contextable.app](mailto:privacy@contextable.app)</ins></p>
+<p>If you have any questions about this policy, please email <a href="mailto:feedback@contextable.app" class="underline">feedback@contextable.app</a></p>
