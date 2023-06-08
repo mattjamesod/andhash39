@@ -10,16 +10,13 @@
 
   <!-- Main Content -->
 
-  <body class="font-sans bg-amber-200  text-slate-900">
+  <body class="font-sans bg-amber-200 dark:bg-slate-900 text-slate-900 dark:text-slate-200">
       <div>
         {% include site-header.html %}
       </div>
 
       <!-- Personal -->
-      <div class="
-        p-8 space-y-16
-        bg-amber-200"
-      >
+      <div class="p-8 space-y-16">
         <div class="
           mx-auto
           max-w-4xl md:flex md:flex-row md:space-x-16
@@ -28,7 +25,8 @@
           <!-- Image -->
 
           <div class="flex-none w-64 mx-auto md:px-0 drop-shadow-lg my-auto">
-            <img class="rounded-full" src="assets/images/profile-face.jpg">
+            <img class="rounded-full" src="assets/images/profile-face.jpg"
+                 alt="The face of the website's author, Matthew, smiling somewhat awkwardly. The Thames at sunset is behind me though, which is very pretty.">
           </div>
 
           <!-- Text -->
@@ -41,37 +39,39 @@
 
             <p>If you want to know more about me or my work, you have some options:</p>
 
-            <div class="flex space-x-1">
-              <p class="font-semibold">Email:</p>
-              <a
-                href="mailto:andhash39@gmail.com"
-                class="text-blue-600 visited:text-purple-600 underline"
-              >
-                andhashthirtynine@gmail.com
-              </a>
-            </div>
+            <ul class="space-y-2">
+              <li class="flex space-x-1">
+                <p class="font-semibold">Email:</p>
+                <a
+                  href="mailto:andhash39@gmail.com"
+                  class="text-blue-600 visited:text-purple-600 underline"
+                >
+                  andhashthirtynine@gmail.com
+                </a>
+              </li>
 
-            <div class="flex space-x-1">
-              <p class="font-semibold">Mastodon:</p>
-              <a
-                rel="me" href="https://mastodon.social/@andhash39"
-                class="text-blue-600 visited:text-purple-600 underline"
-              >
-                andhash39@mastodon.social
-              </a>
-              <p>(Tech 👨‍💻)</p>
-            </div>
+              <li class="flex space-x-1">
+                <p class="font-semibold">Mastodon:</p>
+                <a
+                  rel="me" href="https://mastodon.social/@andhash39"
+                  class="text-blue-600 visited:text-purple-600 underline"
+                >
+                  andhash39@mastodon.social
+                </a>
+                <p>👨‍💻</p>
+              </li>
 
-            <div class="flex space-x-1">
-              <p class="font-semibold">Instagram:</p>
-              <a
-                href="https://www.instagram.com/mattjamesod/"
-                class="text-blue-600 visited:text-purple-600 underline"
-              >
-                mattjamesod@instagram.com
-              </a>
-              <p>(Photography 📸)</p>
-            </div>
+              <li class="flex space-x-1">
+                <p class="font-semibold">Instagram:</p>
+                <a
+                  href="https://www.instagram.com/mattjamesod/"
+                  class="text-blue-600 visited:text-purple-600 underline"
+                >
+                  mattjamesod@instagram.com
+                </a>
+                <p>📸</p>
+              </li>
+            </ul>
 
           </div>
 
@@ -79,7 +79,7 @@
 
         <div class="
           text-center font-semibold font-serif
-          hover:text-slate-700"
+          hover:text-slate-700 dark:hover:text-slate-400"
         >
           <button onclick="scrollToProjects();">
             <p class="text-xl">Check out my projects!</p>
