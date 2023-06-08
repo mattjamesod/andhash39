@@ -10,14 +10,15 @@
 
   <!-- Main Content -->
 
-  <body class="font-sans bg-amber-200">
-    <div class="text-slate-900" >
+  <body class="font-sans bg-sky-900">
+    <div class="text-slate-900 bg-amber-200" >
       {% include site-header.html %}
     </div>
 
-    <p>Hi! there's nothing on this index page, but good for you.</p>
-    <a href="/contextable/terms">Terms</a>
-    <a href="/contextable/privacy">Privacy</a>
+    <div class="text-white">
+      {% include contextable-block.html %}
+      {% include copyright-footer.html %}
+    </div>
 
   </body>
 
