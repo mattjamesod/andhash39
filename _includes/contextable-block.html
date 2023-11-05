@@ -1,14 +1,16 @@
 <!-- Contextable -->
 <div id="contextable" class="
-  p-16
-  bg-sky-900
-  text-white"
+  p-16 md:rounded-2xl
+  bg-gradient-to-r from-blue-900 to-sky-800
+  text-white shadow-inner"
 >
   <div class="
-    container mx-auto
-    space-y-16 md:space-y-0
-    max-w-4xl md:flex md:flex-row-reverse
-    md:space-x-8 md:space-x-reverse"
+    space-y-16 
+    md:space-y-0
+    md:flex 
+    md:flex-row-reverse
+    md:space-x-8 
+    md:space-x-reverse"
   >
 
     <!-- Image -->
@@ -22,14 +24,18 @@
 
     <!-- Text -->
 
-    <div class="space-y-4 my-auto max-w-xl">
-      <div class="text-4xl font-semibold font-serif">
-        <p>Contextable 🧠</p>
+    <div class="space-y-6 max-w-xl">
+      <div class="space-y-2">
+        <div class="text-4xl font-semibold font-serif">
+          <p>Contextable</p>
+        </div>
+        
+        <p class="text-slate-400 italic">
+          Beautiful, interactive flashcards in SwiftUI
+        </p>
       </div>
 
-      <p>Contextable is an app for creating and reviewing flashcards. I made it to learn Russian, my partner's native language.</p>
-
-      <ul class="list-disc space-y-2">
+      <ul class="list-disc text-slate-100 space-y-8">
         <li>Swipe left and right on your stack to review your cards with an intutive user interface.</li>
 
         <li>Put your cards in context by attaching examples, defintions, or any other kind of text.</li>

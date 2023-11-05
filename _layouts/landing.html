@@ -10,7 +10,7 @@
 
   <!-- Main Content -->
 
-  <body class="font-sans bg-amber-200 dark:bg-slate-900 text-slate-900 dark:text-slate-200">
+  <body class="font-sans bg-neutral-100 dark:bg-neutral-900 text-slate-900 dark:text-slate-200">
       <div>
         {% include site-header.html %}
       </div>
@@ -20,78 +20,30 @@
         <div class="
           mx-auto
           max-w-4xl md:flex md:flex-row md:space-x-16
-          md:space-y-0 space-y-8"
-        >
+          md:space-y-0 space-y-8">
           <!-- Image -->
 
-          <div class="flex-none w-64 mx-auto md:px-0 drop-shadow-lg my-auto">
+          <div class="flex-none w-64 md:px-0 drop-shadow-lg my-auto">
             <img class="rounded-full" src="assets/images/profile-face.jpg"
                  alt="The face of the website's author, Matthew, smiling somewhat awkwardly. The Thames at sunset is behind me though, which is very pretty.">
           </div>
 
           <!-- Text -->
 
-          <div class="space-y-4 my-auto">
-            <p class="text-4xl font-semibold font-serif">Hi there! 👋🇬🇧</p>
-            <p>I'm Matt O'Donnell, a London-based rubyist and iOS developer. You would be amazed how many websites can't handle apostrophes.</p>
-
-            <p>I work for <a href="https://freeagent.com" class="text-blue-600 visited:text-purple-600 underline">FreeAgent</a>, where we make a great web app for managing your finances as a small business. I also make things; check out my stuff below.</p>
-
-            <p>If you want to know more about me or my work, you have some options:</p>
-
-            <ul class="space-y-2">
-              <li class="flex space-x-1">
-                <p class="font-semibold">Email:</p>
-                <a
-                  href="mailto:andhash39@gmail.com"
-                  class="text-blue-600 visited:text-purple-600 underline"
-                >
-                  andhashthirtynine@gmail.com
-                </a>
-              </li>
-
-              <li class="flex space-x-1">
-                <p class="font-semibold">Mastodon:</p>
-                <a
-                  rel="me" href="https://mastodon.social/@andhash39"
-                  class="text-blue-600 visited:text-purple-600 underline"
-                >
-                  andhash39@mastodon.social
-                </a>
-                <p>👨‍💻</p>
-              </li>
-
-              <li class="flex space-x-1">
-                <p class="font-semibold">Instagram:</p>
-                <a
-                  href="https://www.instagram.com/mattjamesod/"
-                  class="text-blue-600 visited:text-purple-600 underline"
-                >
-                  mattjamesod@instagram.com
-                </a>
-                <p>📸</p>
-              </li>
-            </ul>
-
+          <div class="space-y-2 my-auto">
+            <p class="text-2xl font-semibold font-serif">Hi! I'm Matt. 👋</p>
+            <p class="font-serif text-slate-600">I make things; you can check them out below.</p>
           </div>
-
-        </div>
-
-        <div class="
-          text-center font-semibold font-serif
-          hover:text-slate-700 dark:hover:text-slate-400"
-        >
-          <button onclick="scrollToProjects();">
-            <p class="text-xl">Check out my projects!</p>
-            <p class="text-2xl">&#x25BC;</p>
-          </div>
+          
         </div>
 
       </div>
 
+      <div class="max-w-6xl mx-auto md:p-8">
       {% include contextable-block.html %}
+      </div>
 
-      <div class="bg-sky-900 text-white">
+      <div>
         {% include copyright-footer.html %}
       </div>
 
