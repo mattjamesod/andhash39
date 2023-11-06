@@ -22,31 +22,40 @@
           max-w-4xl md:space-x-16
           space-y-8 md:space-y-0">
           <!-- Image -->
-
-          <div class="flex-none w-64 drop-shadow-lg self-center">
-            <img class="rounded-full" src="assets/images/profile-face.jpg"
-                 alt="The face of the website's author, Matthew, smiling somewhat awkwardly. The Thames at sunset is behind me though, which is very pretty.">
+          
+          <div>
+            <div class="flex-none w-64 drop-shadow-lg self-center space-y-2 mx-auto md:mx-0">
+              <img class="rounded-full" src="assets/images/profile-face.jpg"
+                   alt="The face of the website's author, Matthew, smiling somewhat awkwardly. The Thames at sunset is behind me though,  which is very pretty.">
+              </img>
+              <div class="flex space-x-2 justify-center drop-shadow-md">
+                <img class="w-4" src="assets/images/hack-pin.png">
+                <p class="text-slate-500 italic">London, probably</p>
+              </div>
+            </div>
           </div>
 
           <!-- Text -->
 
           <div class="space-y-4 self-center">
-            <p class="text-2xl font-semibold font-serif">Hi! I'm Matt.🤘</p>
-            <p class="font-serif text-slate-600 font-medium">I make some iOS apps you might like. You can check them out below!</p>
+            <p class="text-2xl font-semibold font-serif">Hi! I'm Matthew.🤘</p>
+            <p class="font-serif text-slate-600 font-medium">I make an iOS app you might like. You can check it out below!</p>
             <p class="font-serif text-slate-500">I don't love problem-solving; I just enjoy proficiency.</p>
-            <p class="font-serif text-slate-500"><a class="text-sky-600 hover:underline" href="https://mastodon.social/@andhash39">Mastodon</a> is probably the best way to contact me. My corporeal form is probably in London and definitely listening to <a class="text-sky-600 hover:underline" href="https://music.apple.com/gb/album/return-to-the-kingdom-of-fife/1675544727">power metal</a>.</p>
+            <p class="font-serif text-slate-500"><a class="text-sky-600 hover:underline" href="https://mastodon.social/@andhash39">Mastodon</a> is probably the best way to contact me. I'm probably drinking coffee and definitely listening to <a class="text-sky-600 hover:underline" href="https://music.apple.com/gb/album/return-to-the-kingdom-of-fife/1675544727">power metal</a>.</p>
           </div>
           
         </div>
 
       </div>
       
-      <div class="max-w-6xl mx-auto md:p-8 transition ease-in-out">
-      {% include thought-path-block.html %}
-      </div>
-
       <div class="max-w-6xl mx-auto md:p-8">
-      {% include contextable-block.html %}
+        <div id="Contextable" class="
+          p-16 md:rounded-2xl
+          bg-gradient-to-r from-blue-900 to-sky-800
+          text-white shadow-inner"
+        >
+          {% include contextable-block.html %}
+        </div>
       </div>
 
       <div>

@@ -1,0 +1,9 @@
+<!-- {{ include.title }} -->
+<div class="max-w-6xl mx-auto md:p-8">
+	<div id="{{ include.title }}" class="
+	p-16 md:rounded-2xl
+	bg-gradient-to-r {{ include.bg-color }}
+	{{ include.text-color }} shadow-inner">
+		{% include {{ page.inner-content }}.html %}
+	</div>
+</div>

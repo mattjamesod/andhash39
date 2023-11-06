@@ -3,22 +3,31 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Contextable</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="icon" type="image/png" href="/favicon.png">
   </head>
 
   <!-- Main Content -->
-
-  <body class="font-sans bg-sky-900">
-    <div class="text-slate-900 bg-amber-200" >
+  <body class="font-sans bg-gradient-to-r from-neutral-100 to-slate-200 dark:from-neutral-900 dark:to-slate-800 text-black dark:text-slate-100">
+    <div>
       {% include site-header.html %}
     </div>
 
-    <div class="text-white">
-      {% include contextable-block.html %}
-      {% include copyright-footer.html %}
+    {% if page.project_detail %}
+    <div class="max-w-6xl mx-auto md:p-8">
+      <!-- {{ page.title }} -->
+      <div id="{{ page.title }}" class="
+        p-16 md:rounded-2xl
+        bg-gradient-to-r from-blue-900 to-sky-800
+        text-white shadow-inner"
+      >
+        {% include {{ page.project_detail }}.html %}
+      </div>
     </div>
+    {% endif %}
+    
+    {% include copyright-footer.html %}
 
   </body>
 

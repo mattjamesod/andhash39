@@ -10,16 +10,13 @@
 
   <!-- Main Content -->
 
-  <body class="font-sans bg-{{page.color}}-900">
+  <body class="font-sans bg-gradient-to-r from-neutral-100 to-slate-200 dark:from-neutral-900 dark:to-slate-800 text-black dark:text-slate-100">
 
-    <div class="bg-amber-200 text-slate-900" >
+    <div>
       {% include site-header.html %}
     </div>
 
-    <div class="
-      p-16 space-y-4
-      text-white"
-    >
+    <div class="p-16 space-y-4">
       {{ page.content }}
     </div>
 
