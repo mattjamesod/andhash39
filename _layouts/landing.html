@@ -10,7 +10,7 @@
 
   <!-- Main Content -->
 
-  <body class="font-sans bg-neutral-100 dark:bg-neutral-900 text-slate-900 dark:text-slate-200">
+  <body class="font-sans bg-gradient-to-r from-neutral-100 to-slate-200 dark:from-neutral-900 dark:to-slate-800 text-black dark:text-slate-100">
       <div>
         {% include site-header.html %}
       </div>
@@ -18,25 +18,31 @@
       <!-- Personal -->
       <div class="p-8 space-y-16">
         <div class="
-          mx-auto
-          max-w-4xl md:flex md:flex-row md:space-x-16
-          md:space-y-0 space-y-8">
+          mx-auto md:flex md:content-center md:justify-center
+          max-w-4xl md:space-x-16
+          space-y-8 md:space-y-0">
           <!-- Image -->
 
-          <div class="flex-none w-64 md:px-0 drop-shadow-lg my-auto">
+          <div class="flex-none w-64 drop-shadow-lg self-center">
             <img class="rounded-full" src="assets/images/profile-face.jpg"
                  alt="The face of the website's author, Matthew, smiling somewhat awkwardly. The Thames at sunset is behind me though, which is very pretty.">
           </div>
 
           <!-- Text -->
 
-          <div class="space-y-2 my-auto">
-            <p class="text-2xl font-semibold font-serif">Hi! I'm Matt. 👋</p>
-            <p class="font-serif text-slate-600">I make things; you can check them out below.</p>
+          <div class="space-y-4 self-center">
+            <p class="text-2xl font-semibold font-serif">Hi! I'm Matt.🤘</p>
+            <p class="font-serif text-slate-600 font-medium">I make some iOS apps you might like. You can check them out below!</p>
+            <p class="font-serif text-slate-500">I don't love problem-solving; I just enjoy proficiency.</p>
+            <p class="font-serif text-slate-500"><a class="text-sky-600 hover:underline" href="https://mastodon.social/@andhash39">Mastodon</a> is probably the best way to contact me. My corporeal form is probably in London and definitely listening to <a class="text-sky-600 hover:underline" href="https://music.apple.com/gb/album/return-to-the-kingdom-of-fife/1675544727">power metal</a>.</p>
           </div>
           
         </div>
 
+      </div>
+      
+      <div class="max-w-6xl mx-auto md:p-8 transition ease-in-out">
+      {% include thought-path-block.html %}
       </div>
 
       <div class="max-w-6xl mx-auto md:p-8">
