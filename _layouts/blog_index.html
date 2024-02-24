@@ -1,0 +1,18 @@
+---
+layout: header_and_footer
+---
+
+{{ content }}
+
+{% assign posts = site.posts %}
+
+{% if posts.size > 0 %}
+	{% if posts.size > 0 %}
+		<ul class="post-list">
+			{% assign date_format = "%-d %-b" %}
+	    	{% for post in posts %}
+	    		{% include post-index-item.html post=post %}
+	    	{% endfor %}
+	  	</ul>
+	{% endif %}
+{% endif %}

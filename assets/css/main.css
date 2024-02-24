@@ -1,0 +1,131 @@
+:root {
+	color-scheme: light dark;
+
+	--grey: #A8ADB5;
+
+	@media (prefers-color-scheme: light) {
+		--text-color: black;
+		--background-color: white;
+		--link-color: black;
+		--link-color-visited: #4C566A;
+		--link-color-hover: #4C566A;
+		--highlight: #F05D23;
+		--subtle-grey: #F5F5F5;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		--text-color: white;
+		--background-color: rgb(16, 15, 15);
+		--link-color: white;
+		--link-color-visited: #D8DEE9;
+		--link-color-hover: #D8DEE9;
+		--highlight: #F05D23;
+		--subtle-grey: #333333;
+	}
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body {
+	margin: 20px auto 20px auto;
+	@media (min-width:480px) { margin: 100px auto 100px auto; }
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+  font-family: -apple-system, system-ui, Verdana, sans-serif;
+}
+
+main {
+	margin: 20px;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+
+	&:visited {
+		color: var(--link-color-visited);
+	}
+}
+
+h1, h2, h3 {
+	color: var(--text-color);
+}
+
+body {
+	gap: 1rem;
+}
+
+nav ul {
+	width: auto;
+	border-radius: 500px;
+	display: flex;
+	justify-content: center;
+	flex-shrink: 0;
+	list-style-type: none;
+	gap: 5px;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	font-size: 0.9rem;
+	padding: 8px 16px;
+	text-decoration: none;
+
+	&:hover {
+		background-color: var(--subtle-grey);
+  	border-radius: 500px;
+	}
+
+	&:visited {
+		color: var(--text-color);
+	}
+}
+
+nav li .active {
+	font-weight: 500;
+	background-color: var(--subtle-grey);
+  border-radius: 500px;
+}
+
+ul, menu, dir {
+	display: block;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	padding-inline-start: 0px;
+}
+
+.slide-in {
+	animation: slidein 0.5s ease forwards;
+}
+
+@keyframes slidein {
+  0% {
+  	transform: translateY(30px);
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.image-frame {
+  max-width:40%; 
+  height:auto;
+  border-radius: 5px;
+}
+
+footer {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.8rem;
+	color: var(--grey);
+}

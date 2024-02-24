@@ -1,0 +1,13 @@
+{% assign words = post.content | split: ' ' %}
+{% assign limited_words = words | slice: 0, 40 %}
+{% assign limited_text = limited_words | join: ' ' %}
+
+<li class="post-header">
+	<div class="post-meta">{{ post.date | date: date_format }}</div>
+	<div class="post-preview">
+		<h2 class="post-link" ><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+		{{ limited_text }}...</p> <!-- This limited_text spits out a p tag for some reason -->
+
+		<span><a class="continue-reading" href="{{ post.url | relative_url }}">Continue Reading</a></span>
+	</div>
+</li>
