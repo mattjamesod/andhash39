@@ -11,19 +11,26 @@
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
-	padding: 12px;
 	align-items: center;
+}
 
+.portfolio-clickable {
+	padding: 12px;
+	transition: transform 0.2s ease-in-out;
 	&:hover {
 		border-radius: 12px;
 		background-color: var(--subtle-grey);
+		transform: scale(1.01);
 	}
 }
 
 .portfolio-highlight-text {
 	display: flex;
 	flex-direction: column;
+	align-items:start;
 	gap: 0.2rem;
+	color: var(--grey);
+	font-size: 0.9rem;
 }
 
 .portfolio-highlight-text p,
@@ -35,13 +42,31 @@
 	font-weight: 600;
 }
 
-.portfolio-highlight-text span {
-	color: var(--grey);
-	font-size: 0.9rem;
+.app-icon {
+  	max-width: 57px; 
+  	max-height: 57px; 
+  	height:auto;
 }
 
-.app-icon {
-  max-width: 57px; 
-  max-height: 57px; 
-  height:auto;
+.avamae {
+	@media (prefers-color-scheme: light) {
+		filter: brightness(0);
+	}
+}
+
+.employment-span {
+	font-weight: 500;
+	color: var(--grey);
+	font-size: 0.7rem;
+  	text-transform: uppercase;
+  	font-variant: small-caps;
+  	margin-left: auto;
+}
+
+.portfolio-skills {
+  	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.3s ease-in-out; /* Add transition effect */
+	color: var(--grey);
+	font-size: 0.9rem;
 }

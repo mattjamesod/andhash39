@@ -78,10 +78,12 @@ nav li a {
 	font-size: 0.9rem;
 	padding: 8px 16px;
 	text-decoration: none;
+	transition: transform 0.2s ease-in-out;
 
-	&:hover {
+	&:hover:not(.active) {
 		background-color: var(--subtle-grey);
   	border-radius: 500px;
+		transform: scale(1.04);
 	}
 
 	&:visited {
@@ -90,9 +92,10 @@ nav li a {
 }
 
 nav li .active {
-	font-weight: 500;
+	font-weight: 450;
 	background-color: var(--subtle-grey);
   border-radius: 500px;
+	transform: scale(1.04);
 }
 
 ul, menu, dir {
@@ -117,10 +120,44 @@ ul, menu, dir {
   }
 }
 
+.divider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+.divider-word {
+	font-weight: 500;
+	color: var(--grey);
+	font-size: 0.8rem;
+  	text-transform: uppercase;
+  	font-variant: small-caps;
+}
+
+.divider-line {
+	background-color: var(--subtle-grey);
+	flex: 1;
+  	height: 2px;
+  	border-radius: 500px;
+}
+
 .image-frame {
   max-width:40%; 
   height:auto;
   border-radius: 5px;
+}
+
+button {
+  border: none; /* Remove borders */
+  background-color: transparent; /* Remove background color */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  font: inherit; /* Inherit font styles */
+  color: inherit; /* Inherit text color */
+  cursor: pointer; /* Set cursor to pointer */
+  outline: none; /* Remove outline */
 }
 
 footer {

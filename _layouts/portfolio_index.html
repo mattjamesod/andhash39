@@ -2,24 +2,82 @@
 layout: header_and_footer
 ---
 
-<!-- <p>I make some apps for Apple platforms:</p> -->
 <ul class="portfolio-list">
-	<a href="thought-path">
-		<li class="portfolio-highlight">
+	{% include divider.html title="Apps" %}
+
+	<li>
+		<a href="thought-path" class="portfolio-highlight portfolio-clickable">
 			<img src="/assets/images/thought-path-icon.png" alt="Thought Path Icon" class="app-icon">
 			<div class ="portfolio-highlight-text">
 				<h3>Thought Path</h3>
 				<span>The first point of contact for all your thoughts, ideas, and tasks; see the output of 	your brain over time.</span>
 			</div>
-		</li>
-	</a>
-	<a href="contextable">
-		<li class="portfolio-highlight">
+		</a>
+	</li>
+
+	<li>
+		<a href="contextable" class="portfolio-highlight portfolio-clickable">
 			<img src="/assets/images/contextable-icon.png" alt="Contextable Icon" class="app-icon">
 			<div class ="portfolio-highlight-text">
 				<h3>Contextable</h3>
-				<span>A beautiful SwiftUI flashcards app, designed for language learners; put all your words in 	context.</span>
+				<span>A beautiful SwiftUI flashcards app, designed for language learners; put all your words in context.</span>
 			</div>
-		</li>
-	</a>
+		</a>
+	</li>
+
+	{% include divider.html title="Roles" %}
+
+	<li>
+		<button id="freeagent-skills-toggle" class="portfolio-clickable">
+			<div class="portfolio-highlight">
+				<img class="app-icon" src="/assets/images/freeagent.png" alt="FreeAgent Logo">
+				<div class ="portfolio-highlight-text">
+					<h3>FreeAgent</h3>
+					<span>Software Engineer</span>
+				</div>
+				<span class="employment-span">Mar 2022 - Present</span>
+			</div>
+			<div class="portfolio-skills" id="freeagent-skills">
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget libero nec nulla vestibulum 	convallis. Ut ac sagittis lorem, et varius magna. Vivamus aliquet tempor metus, ac laoreet est 	condimentum ac. Sed nec turpis mauris. Donec at neque ac tortor ultrices interdum vel sit amet 	turpis.Integer dapibus condimentum convallis. Integer sed urna ac purus scelerisque efficitur.
+			</div>
+		</button>
+	</li>
+
+	<li>
+		<button id="avamae-skills-toggle" class="portfolio-clickable">
+			<div class="portfolio-highlight">
+				<img class="app-icon avamae" src="/assets/images/avamae-light.png" alt="AVAMAE Logo">
+				<div class ="portfolio-highlight-text">
+					<h3>AVAMAE</h3>
+					<span>Cloud Software Engineer</span>
+				</div>
+				<span class="employment-span">Dec 2019 - Mar 2022</span>
+			</div>
+			<div class="portfolio-skills" id="avamae-skills">
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget libero nec nulla vestibulum 	convallis. Ut ac sagittis lorem, et varius magna. Vivamus aliquet tempor metus, ac laoreet est 	condimentum ac. Sed nec turpis mauris. Donec at neque ac tortor ultrices interdum vel sit amet 	turpis.Integer dapibus condimentum convallis. Integer sed urna ac purus scelerisque efficitur.
+			</div>
+		</button>
+	</li>
 </ul>
+
+<script>
+	document.getElementById("freeagent-skills-toggle").addEventListener("click", function() {
+		var content = document.getElementById("freeagent-skills");
+
+	  	if (content.style.maxHeight) {
+  			content.style.maxHeight = null;
+  		} else {
+  			content.style.maxHeight = content.scrollHeight + "px";
+  		}
+	});
+
+	document.getElementById("avamae-skills-toggle").addEventListener("click", function() {
+		var content = document.getElementById("avamae-skills");
+		
+	  	if (content.style.maxHeight) {
+  			content.style.maxHeight = null;
+  		} else {
+  			content.style.maxHeight = content.scrollHeight + "px";
+  		}
+	});
+</script>

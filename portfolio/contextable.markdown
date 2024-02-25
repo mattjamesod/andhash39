@@ -9,5 +9,5 @@ back_link_label: Full Portfolio
 
 <img src="/assets/images/thought-path.png" alt="Alt Text" style="max-width:100%; height:auto;">
 
-# Thought Path
-## The Smart Inbox for your Brain
+# Contextable
+## Beautiful Language Flashcards
