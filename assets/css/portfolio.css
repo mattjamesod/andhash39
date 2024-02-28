@@ -19,7 +19,7 @@
 	transition: transform 0.2s ease-in-out;
 	&:hover {
 		border-radius: 12px;
-		background-color: var(--subtle-grey);
+		background-color: var(--subtle-highlight);
 		transform: scale(1.01);
 	}
 }
@@ -29,7 +29,7 @@
 	flex-direction: column;
 	align-items:start;
 	gap: 0.2rem;
-	color: var(--grey);
+	color: var(--text-color);
 	font-size: 0.9rem;
 }
 
@@ -56,7 +56,7 @@
 
 .employment-span {
 	font-weight: 500;
-	color: var(--grey);
+	color: var(--text-color);
 	font-size: 0.7rem;
   	text-transform: uppercase;
   	font-variant: small-caps;
@@ -67,6 +67,6 @@
   	max-height: 0;
   	overflow: hidden;
   	transition: max-height 0.3s ease-in-out; /* Add transition effect */
-	color: var(--grey);
+	color: var(--text-color);
 	font-size: 0.9rem;
 }

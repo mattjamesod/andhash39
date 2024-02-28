@@ -3,12 +3,18 @@
   margin-left: 0;
   list-style: none;
   display: grid;
-  gap: 2rem;
+  gap: 0.5rem;
+}
+
+.post-list h1,
+.post-list p {
+  margin-block-start: 0px;
+  margin-block-end: 0.4rem;
 }
 
 .post-header {
   display: flex;
-  align-items: first baseline;
+  align-items: flex-start;
   gap: 1rem;
 }
 
@@ -18,15 +24,29 @@
 }
 
 .post-meta {
-	font-size: 0.6rem;
-	font-weight: bold;
-  flex-shrink: 0;
-  color: white;
-  background-color: var(--highlight);
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	font-size: 2.5rem;
+  color: var(--highlight);
   text-transform: uppercase;
   font-variant: small-caps;
-  padding: 0.1rem 0.3rem;
+}
+
+.post-meta-first {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.post-meta-second {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
 }
 
 .post-link {
@@ -36,13 +56,13 @@
 
 .continue-reading {
 	font-weight: 500;
-	color: var(--grey);
+	color: var(--text-color);
 	font-size: 0.7rem;
   text-transform: uppercase;
   font-variant: small-caps;
   margin-block-end: 0px;
 
 	&:visited {
-		color: var(--grey);
+		color: var(--text-color);
 	}
 }

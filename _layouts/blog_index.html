@@ -9,7 +9,8 @@ layout: header_and_footer
 {% if posts.size > 0 %}
 	{% if posts.size > 0 %}
 		<ul class="post-list">
-			{% assign date_format = "%-d %-b" %}
+			{% assign date_format_1 = "%-d" %}
+			{% assign date_format_2 = "%-b" %}
 	    	{% for post in posts %}
 	    		{% include post-index-item.html post=post %}
 	    	{% endfor %}

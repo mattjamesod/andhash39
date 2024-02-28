@@ -1,27 +1,51 @@
 :root {
 	color-scheme: light dark;
 
-	--grey: #A8ADB5;
 
 	@media (prefers-color-scheme: light) {
-		--text-color: black;
-		--background-color: white;
+		--background-color: var(--neutral-one);
+		--text-color: var(--neutral-two);
+		--highlight: var(--accent-two);
+		--subtle-highlight: var(--neutral-three);
+
 		--link-color: black;
 		--link-color-visited: #4C566A;
 		--link-color-hover: #4C566A;
-		--highlight: #F05D23;
-		--subtle-grey: #F5F5F5;
 	}
 
 	@media (prefers-color-scheme: dark) {
-		--text-color: white;
-		--background-color: rgb(16, 15, 15);
+		--background-color: var(--main);
+		--text-color: var(--neutral-one);
+		--highlight: var(--accent-two);
+		--subtle-highlight: var(--neutral-three);
+
 		--link-color: white;
 		--link-color-visited: #D8DEE9;
 		--link-color-hover: #D8DEE9;
-		--highlight: #F05D23;
-		--subtle-grey: #333333;
 	}
+
+	@media (prefers-color-scheme: light) {
+		--main: #6A7BFF;
+		--accent-one: #00B4CC;
+		--accent-two: #FF6B6B;
+		--neutral-one: #gagaga;
+		--neutral-two: #333333;
+		--neutral-three: #F5F5F5;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		--main: #2C3E50;
+		--accent-one: #3498DB;
+		--accent-two: #FF6B6B;
+		--neutral-one: #F5F5F5;
+		--neutral-two: #FFFFFF;
+		--neutral-three: #233146;
+	}
+}
+
+header h1 {
+	text-align: center;
+	font-weight: 600;
 }
 
 body {
@@ -31,7 +55,7 @@ body {
 
 body {
 	margin: 20px auto 20px auto;
-	@media (min-width:480px) { margin: 100px auto 100px auto; }
+	@media (min-width:480px) { margin: 60px auto 100px auto; }
 	max-width: 600px;
 	display: flex;
 	flex-direction: column;
@@ -81,7 +105,7 @@ nav li a {
 	transition: transform 0.2s ease-in-out;
 
 	&:hover:not(.active) {
-		background-color: var(--subtle-grey);
+		background-color: var(--subtle-highlight);
   	border-radius: 500px;
 		transform: scale(1.04);
 	}
@@ -93,7 +117,7 @@ nav li a {
 
 nav li .active {
 	font-weight: 450;
-	background-color: var(--subtle-grey);
+	background-color: var(--subtle-highlight);
   border-radius: 500px;
 	transform: scale(1.04);
 }
@@ -137,7 +161,7 @@ ul, menu, dir {
 }
 
 .divider-line {
-	background-color: var(--subtle-grey);
+	background-color: var(--subtle-highlight);
 	flex: 1;
   	height: 2px;
   	border-radius: 500px;
@@ -146,7 +170,7 @@ ul, menu, dir {
 .image-frame {
   max-width:40%; 
   height:auto;
-  border-radius: 5px;
+  border-radius: 5000px;
 }
 
 button {
