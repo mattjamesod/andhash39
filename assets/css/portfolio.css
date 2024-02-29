@@ -78,7 +78,14 @@
 
 .portfolio-skills-container {
 	text-align: start;
-	padding-top: 1rem;
-  	padding-left: 1rem;
-  	padding-right: 1rem;
+	font-size: 0.8rem;
+  	padding-top: 24px;
+  	padding-left: 12px;
+  	padding-right: 12px;
+  	padding-bottom: 6px;
+}
+
+.portfolio-skills-container p {
+  	margin-block-start: 0px;
+  	margin-block-end: 6px;
 }
