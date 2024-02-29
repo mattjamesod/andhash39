@@ -1,16 +1,17 @@
 :root {
 	color-scheme: light dark;
 
+	--grey: #A8ADB5;
+
+	--link-color: var(--accent-two);
+	--link-color-visited: #CC5555;
+	--link-color-hover: #CC5555;
 
 	@media (prefers-color-scheme: light) {
 		--background-color: var(--neutral-one);
 		--text-color: var(--neutral-two);
 		--highlight: var(--accent-two);
 		--subtle-highlight: var(--neutral-three);
-
-		--link-color: black;
-		--link-color-visited: #4C566A;
-		--link-color-hover: #4C566A;
 	}
 
 	@media (prefers-color-scheme: dark) {
@@ -18,10 +19,6 @@
 		--text-color: var(--neutral-one);
 		--highlight: var(--accent-two);
 		--subtle-highlight: var(--neutral-three);
-
-		--link-color: white;
-		--link-color-visited: #D8DEE9;
-		--link-color-hover: #D8DEE9;
 	}
 
 	@media (prefers-color-scheme: light) {
@@ -72,6 +69,10 @@ main {
 a {
 	color: var(--link-color);
 	text-decoration: none;
+
+	&:hover {
+		color: var(--link-color-hover);
+	}
 
 	&:visited {
 		color: var(--link-color-visited);
@@ -156,15 +157,15 @@ ul, menu, dir {
 	font-weight: 500;
 	color: var(--grey);
 	font-size: 0.8rem;
-  	text-transform: uppercase;
-  	font-variant: small-caps;
+  text-transform: uppercase;
+  font-variant: small-caps;
 }
 
 .divider-line {
 	background-color: var(--subtle-highlight);
 	flex: 1;
-  	height: 2px;
-  	border-radius: 500px;
+  height: 2px;
+  border-radius: 500px;
 }
 
 .image-frame {
