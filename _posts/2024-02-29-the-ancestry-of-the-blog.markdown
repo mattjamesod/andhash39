@@ -1,9 +1,11 @@
 ---
-layout: post
-title:  "Frontier"
-date:   2024-02-12 21:47:29 +0000
-categories: thinking
+layout: 	post
+title:  	"The Ancestry of the Blog"
+date:   	2024-02-29 08:48:00 +0000
+categories: non-fiction, thinking
 ---
+
+Rousseau's essay contest
 
 Donec dapibus tortor vel nunc facilisis, non consequat nibh auctor. Etiam vulputate lorem et felis dictum malesuada. Vivamus bibendum nisi non risus efficitur, nec aliquam orci convallis. Ut eu orci magna. Nunc malesuada nibh ut nisl luctus, at eleifend sem aliquet. Sed nec sapien felis. Maecenas vehicula nisl vitae mauris vehicula, a lobortis sem fringilla. Vivamus sagittis lectus nec urna interdum, vitae malesuada turpis dapibus. Sed at elit lobortis, dignissim tortor eu, faucibus velit. Integer eu est eu mi pharetra tempus. Nullam sed mi ac magna vehicula varius. Vivamus tincidunt felis id lacus volutpat placerat. Sed non orci ut sapien commodo eleifend. Curabitur in libero nec sem commodo sollicitudin. Suspendisse non tortor rhoncus, vestibulum metus non, finibus orci. 
 

@@ -38,7 +38,11 @@ layout: header_and_footer
 				<span class="employment-span">Mar 2022 - Present</span>
 			</div>
 			<div class="portfolio-skills" id="freeagent-skills">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget libero nec nulla vestibulum 	convallis. Ut ac sagittis lorem, et varius magna. Vivamus aliquet tempor metus, ac laoreet est 	condimentum ac. Sed nec turpis mauris. Donec at neque ac tortor ultrices interdum vel sit amet 	turpis.Integer dapibus condimentum convallis. Integer sed urna ac purus scelerisque efficitur.
+				<div class="portfolio-skills-container">
+				  <p>FreeAgent is a company that makes accountancy software for small businesses.</p>
+
+				  <p>At FreeAgent I contributed to our customer-facing Ruby-on-Rails application, .</p>
+				</div>
 			</div>
 		</button>
 	</li>
@@ -54,7 +58,10 @@ layout: header_and_footer
 				<span class="employment-span">Dec 2019 - Mar 2022</span>
 			</div>
 			<div class="portfolio-skills" id="avamae-skills">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget libero nec nulla vestibulum 	convallis. Ut ac sagittis lorem, et varius magna. Vivamus aliquet tempor metus, ac laoreet est 	condimentum ac. Sed nec turpis mauris. Donec at neque ac tortor ultrices interdum vel sit amet 	turpis.Integer dapibus condimentum convallis. Integer sed urna ac purus scelerisque efficitur.
+				<div class="portfolio-skills-container">
+				  <p>AMAMAE is web consulting company that had around 20 employees when I joined in 2019.</p>
+				  <p>At AVAMAE I built and scaled websites for our clients. I was heavily involved in technical decision making, required to be an independent communicator, and was responsible for meeting tight deadlines.</p>
+				</div>
 			</div>
 		</button>
 	</li>
@@ -63,20 +70,26 @@ layout: header_and_footer
 <script>
 	document.getElementById("freeagent-skills-toggle").addEventListener("click", function() {
 		var content = document.getElementById("freeagent-skills");
+		var clickable = document.getElementById("freeagent-skills-toggle");
 
 	  	if (content.style.maxHeight) {
+	  		clickable.classList.remove("clicked");
   			content.style.maxHeight = null;
   		} else {
+	  		clickable.classList.add("clicked");
   			content.style.maxHeight = content.scrollHeight + "px";
   		}
 	});
 
 	document.getElementById("avamae-skills-toggle").addEventListener("click", function() {
 		var content = document.getElementById("avamae-skills");
+		var clickable = document.getElementById("avamae-skills-toggle");
 		
 	  	if (content.style.maxHeight) {
+	  		clickable.classList.remove("clicked");
   			content.style.maxHeight = null;
   		} else {
+	  		clickable.classList.add("clicked");
   			content.style.maxHeight = content.scrollHeight + "px";
   		}
 	});

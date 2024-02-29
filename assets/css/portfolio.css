@@ -22,6 +22,11 @@
 		background-color: var(--subtle-highlight);
 		transform: scale(1.01);
 	}
+
+	&.clicked {
+		border-radius: 12px;
+		background-color: var(--subtle-highlight);
+	}
 }
 
 .portfolio-highlight-text {
@@ -56,7 +61,7 @@
 
 .employment-span {
 	font-weight: 500;
-	color: var(--text-color);
+	color: var(--grey);
 	font-size: 0.7rem;
   	text-transform: uppercase;
   	font-variant: small-caps;
@@ -66,7 +71,14 @@
 .portfolio-skills {
   	max-height: 0;
   	overflow: hidden;
-  	transition: max-height 0.3s ease-in-out; /* Add transition effect */
+  	transition: max-height 0.3s ease-in-out;
 	color: var(--text-color);
 	font-size: 0.9rem;
+}
+
+.portfolio-skills-container {
+	text-align: start;
+	padding-top: 1rem;
+  	padding-left: 1rem;
+  	padding-right: 1rem;
 }
