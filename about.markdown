@@ -13,7 +13,7 @@ I'm Matthew, and I make things on the internet. I host my [portfolio](/portfolio
 I'm probably in London, and always happy to grab a coffee and meet new people. Give me a shout:
 
 <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem;">
-	<li><a href="https://mastodon.social/@andhash39" target="_blank">Mastodon</a></li>
-	<li><a href="https://www.instagram.com/mattjamesod/" target="_blank">Instagram</a></li>
-	<li><a href="mailto:mattjamesod@gmail.com" target="_blank">Email</a></li>
+	<li><a href="https://mastodon.social/@andhash39" target="_blank">Mastodon &#8599;</a></li>
+	<li><a href="https://www.instagram.com/mattjamesod/" target="_blank">Instagram &#8599;</a></li>
+	<li><a href="mailto:mattjamesod@gmail.com" target="_blank">Email &#8599;</a></li>
 </ul>

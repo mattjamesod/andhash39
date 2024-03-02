@@ -16,9 +16,11 @@
 
 .portfolio-clickable {
 	padding: 12px;
+	border-radius: 12px;
 	transition: transform 0.2s ease-in-out;
+	transition: background-color 0.1s linear;
+
 	&:hover {
-		border-radius: 12px;
 		background-color: var(--subtle-highlight);
 		transform: scale(1.01);
 	}

@@ -98,11 +98,12 @@ nav li a {
 	font-size: 0.9rem;
 	padding: 8px 16px;
 	text-decoration: none;
+  	border-radius: 500px;
 	transition: transform 0.2s ease-in-out;
+	transition: background-color 0.1s linear;
 
 	&:hover:not(.active) {
 		background-color: var(--subtle-highlight);
-  	border-radius: 500px;
 		transform: scale(1.04);
 	}
 
