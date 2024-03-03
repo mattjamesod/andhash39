@@ -59,7 +59,7 @@
 	margin-block-end: 1rem; 
 }
 
-.image-flex-container {
+.image-flex-container, .image-flex-container-reverse {
 	margin-top: 24px; 
 	margin-bottom: 24px;
 	display: flex;
@@ -75,6 +75,13 @@
 	}
 }
 
+@media (min-width: 600px) {
+	.image-flex-container-reverse {
+		flex-direction: row-reverse;
+		align-items: stretch;
+	}
+}
+
 .image-flex-container-img {
 	max-width: 60%; 
 	height: auto;
@@ -85,10 +92,14 @@
 		max-width: 40%;
 	}
 }
+
 .image-flex-container-text {
-	max-width: 60%; 
-	height: auto;
-	@media (min-width:600px) { max-width: 40%; }
+	list-style-type: none;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-around; 
+	flex-grow: 1;
+	gap: 1rem;
 }
 
 

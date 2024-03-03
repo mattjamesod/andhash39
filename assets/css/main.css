@@ -155,6 +155,7 @@ ul, menu, dir {
 	font-size: 0.8rem;
   text-transform: uppercase;
   font-variant: small-caps;
+	text-align: center;
 }
 
 .divider-line {
