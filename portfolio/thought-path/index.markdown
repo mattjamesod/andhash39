@@ -17,27 +17,31 @@ Thought Path is the first point of contact for all your thoughts, ideas, and tas
 	<p class="caption">Add everything to Thought Path, and easily see the output of your brain over time, on a map, or search for specific keywords.</p>
 </div>
 
-## Relative Dates
+{% include divider.html title="The Inbox" %}
 
-Thoughts are grouped under relative time headings (Today, Yesterday, This Month etc) to easily identify old thoughts that probably aren't actionable.
+<div class="image-flex-container">
+	<img src="/assets/images/inbox.png" alt="The Thought Path inbox view" class="image-flex-container-img">
+	<ul style="display: flex; flex-direction: column; justify-content: space-around; flex-grow: 1;">
+		<li>Thoughts are grouped under relative time headings to easily identify old thoughts that probably aren't actionable.</li>
+		<li>You can "complete" or "archive" your thoughts with a single tap.</li>
+	</ul>
+</div>
 
-## Inbox, then Review
 
-You can "complete" or "archive" your thoughts with a single tap
 
-## Places
+{% include divider.html title="Places" %}
 
 You can view all your thoughts on a map of where you captured them similar to Photos, to easily find all the thoughts you had on a vacation or a conference
 
-## Tags
+{% include divider.html title="Tags" %}
 
-You can tag your thoughts, and the app features full full text search 
+You can tag your thoughts, and the app features full full text search
 
-## Shortcuts
+{% include divider.html title="Shortcuts" %}
 
-Full shortcuts support
+Thought Path includes full support for the native Shortcuts app, letting you capture your ideas in whatever way works best for you!
 
-## Pricing
+{% include divider.html title="Pricing" %}
 
 Though Path is free to use indefinitely, but you will need to review and archive all your thoughts once you reach a cap of 15. 
 

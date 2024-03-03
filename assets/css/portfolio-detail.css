@@ -20,6 +20,11 @@
 	margin-block-end: 2rem;
 }
 
+.portfolio-detail-content h2 {
+		text-align: center;
+	}
+}
+
 .image-container {
   display: flex;
   justify-content: center; /* Centers the image horizontally */
@@ -53,3 +58,37 @@
   height:auto;
 	margin-block-end: 1rem; 
 }
+
+.image-flex-container {
+	margin-top: 24px; 
+	margin-bottom: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	gap: 2rem;
+}
+
+@media (min-width: 600px) {
+	.image-flex-container {
+		flex-direction: row;
+		align-items: stretch;
+	}
+}
+
+.image-flex-container-img {
+	max-width: 60%; 
+	height: auto;
+}
+
+@media (min-width: 600px) {
+	.image-flex-container-img {
+		max-width: 40%;
+	}
+}
+.image-flex-container-text {
+	max-width: 60%; 
+	height: auto;
+	@media (min-width:600px) { max-width: 40%; }
+}
+
+
