@@ -1,3 +1,3 @@
 ---
-layout: blog_index
+layout: blog-index
 ---
