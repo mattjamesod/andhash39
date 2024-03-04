@@ -38,6 +38,7 @@
 	gap: 0.2rem;
 	color: var(--text-color);
 	font-size: 0.9rem;
+	text-align: start;
 }
 
 .portfolio-highlight-text p,
