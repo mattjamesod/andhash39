@@ -1,4 +1,5 @@
-{% assign words = post.content | split: ' ' %}
+{% assign html_stripped = post.content | strip_html %}
+{% assign words = html_stripped | split: ' ' %}
 {% assign limited_words = words | slice: 0, 50 %}
 {% assign limited_text = limited_words | join: ' ' %}
 
@@ -10,7 +11,7 @@
 		</div>
 		<div class="post-preview">
 			<h1 class="post-link" >{{ post.title }}</h1>
-			{{ limited_text }}...</p> <!-- This limited_text spits out a p tag for some reason -->
+			<p>{{ limited_text }}...</p> <!-- This limited_text spits out a p tag for some reason -->
 		</div>
 	</a>
 </li>
