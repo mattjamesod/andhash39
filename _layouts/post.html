@@ -2,8 +2,17 @@
 layout: just-footer
 ---
 <a href="/">« all posts</a>
-<h1>{{ page.title }}</h1>
 {% assign date_format = "%b %-d, %Y" %}
-<h2>{{ page.date | date: date_format }}</h2>
+
+<header class="post-content-header">
+	<div class="post-content-header-titles">
+		<div class="post-date">{{ page.date | date: date_format }}</div>
+		<h1 class="title-font">{{ page.title }}</h1>
+	</div>
+	<div class="icon-links">
+		<a href="https://mastodon.social/@andhash39">Mastodon</a>
+		<a href="/feed.xml">RSS</a>
+	</div>
+</header>
 {{ content }}
 <a href="/feed.xml">Subscribe to all posts with RSS</a>

@@ -58,6 +58,24 @@
 	font-weight: 600;
 }
 
+.post-date {
+  color: var(--grey);
+}
+
+.post-content-header {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-content-header h1 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
 .continue-reading {
 	font-weight: 500;
 	color: var(--text-color);

@@ -53,12 +53,20 @@ body {
 	flex-direction: column;
 }
 
+.title-font {
+	font-family: "Playfair Display", serif;
+}
+
 body {
-  font-family: -apple-system, system-ui, Verdana, sans-serif;
+  font-family: "Montserrat", -apple-system, system-ui, Verdana, sans-serif;
 }
 
 main {
 	margin: 20px;
+}
+
+p {
+	line-height: 1.5;
 }
 
 a {
