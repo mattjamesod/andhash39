@@ -1,8 +1,9 @@
 ---
 layout: 	post
 title:  	"Frontier"
-date:   	2024-03-01 08:48:00 +0000
+date:   	2024-02-10 08:48:00 +0000
 categories: non-fiction
+permalink:  "/24-02-19/frontier"
 ---
 
 As I write this, I'm sat in a coffee shop I've never been to before. It's really not very far from my flat at all; my gym is only two minutes up the road, and I walk there almost every day.

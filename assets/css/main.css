@@ -54,7 +54,7 @@ body {
 }
 
 .title-font {
-	font-family: "Playfair Display", serif;
+	font-family: "Merriweather", serif;
 }
 
 body {
@@ -66,7 +66,11 @@ main {
 }
 
 p {
-	line-height: 1.5;
+	line-height: 1.6;
+}
+
+.portfolio-detail-content {
+	line-height: 1.6;
 }
 
 a {
