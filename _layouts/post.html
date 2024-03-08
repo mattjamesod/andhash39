@@ -1,13 +1,14 @@
 ---
-layout: just-footer
+layout: header-and-footer
 ---
-<a href="/">« all posts</a>
+
 {% assign date_format = "%b %-d, %Y" %}
 
+<a class="back-link" href="/">« all posts</a>
 <header class="post-content-header">
 	<div class="post-content-header-titles">
-		<div class="post-date">{{ page.date | date: date_format }}</div>
 		<h1 class="title-font">{{ page.title }}</h1>
+		<div class="post-date">{{ page.date | date: date_format }} • By Matthew O'Donnell</div>
 	</div>
 	<div class="icon-links">
 		<a href="https://mastodon.social/@andhash39" target="_blank">
@@ -18,5 +19,5 @@ layout: just-footer
 		</a>
 	</div>
 </header>
-{{ content }}
+<div class="post-content">{{ content }}</div>
 <a href="/feed.xml">Subscribe to all posts with RSS</a>

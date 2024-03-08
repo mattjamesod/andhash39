@@ -181,6 +181,7 @@ ul, menu, dir {
   max-width:40%; 
   height:auto;
   border-radius: 9000px;
+  cursor: url('/assets/images/dragon-age-cursor.png'), auto;
 }
 
 button {

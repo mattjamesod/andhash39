@@ -2,7 +2,7 @@
   <!-- <h1><a class="and-hash-thirty-nine" href="/">&amp;#39;</a></h1> -->
   <nav class="navigation">
     <ul>
-      <li><a {% if page.url == "/" %}class="active"{% endif %} href="/">Writing</a></li>
+      <li><a {% if page.navigation_category == "writing" %}class="active"{% endif %} href="/">Writing</a></li>
       <li><a {% if page.navigation_category == "portfolio" %}class="active"{% endif %} href="/portfolio">Portfolio</a></li>
       <!-- <li><a {% if page.url == "/library/" %}class="active"{% endif %} href="/library/">Library</a></li> -->
       <li><a {% if page.url == "/about/" %}class="active"{% endif %} href="/about/">About</a></li>
