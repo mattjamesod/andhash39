@@ -65,6 +65,10 @@
   font-size: 0.9rem;
 }
 
+.post-content strong {
+  font-weight: 600;
+}
+
 .post-content-header {
   margin-block-start: 1rem;
   margin-block-end: 1rem;
