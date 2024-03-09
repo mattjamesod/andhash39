@@ -2,8 +2,13 @@
 	list-style-type: none;
 	display: flex;
 	flex-direction: column;
-	margin-left: 2.5rem;
-	margin-right: 2.5rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+
+	@media (min-width: 600px) { 
+		margin-left: 2.5rem;
+		margin-right: 2.5rem;
+	}
 	gap: 1rem;
 }
 
