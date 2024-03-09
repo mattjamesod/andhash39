@@ -48,7 +48,8 @@ body {
 body {
 	margin: 20px auto 20px auto;
 	@media (min-width:480px) { margin: 80px auto 80px auto; }
-	max-width: 600px;
+	max-width: 1200px;
+	@media (min-width:480px) { max-width: 600px; }
 	display: flex;
 	flex-direction: column;
 }
@@ -105,12 +106,13 @@ nav ul {
 }
 
 nav li a {
+	color: var(--text-color);
 	display: block;
 	text-align: center;
 	font-size: 0.9rem;
 	padding: 8px 16px;
 	text-decoration: none;
-  	border-radius: 500px;
+  border-radius: 500px;
 	transition: transform 0.2s ease-in-out;
 	transition: background-color 0.1s linear;
 
