@@ -1,6 +1,6 @@
 ---
 layout: portfolio-index
-title: Apps
+title: Portfolio
 navigation_category: portfolio
 permalink: /portfolio/
 ---
