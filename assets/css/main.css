@@ -47,9 +47,9 @@ body {
 
 body {
 	margin: 20px auto 20px auto;
-	@media (min-width: 750px) { margin: 80px auto 80px auto; }
+	@media (min-width: 600px) { margin: 80px auto 80px auto; }
 	max-width: 1200px;
-	@media (min-width: 750px) { max-width: 600px; }
+	@media (min-width: 600px) { max-width: 600px; }
 	display: flex;
 	flex-direction: column;
 }
