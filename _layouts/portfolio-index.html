@@ -25,13 +25,7 @@ layout: header-and-footer
 		</a>
 	</li>
 
-	<div>
-		<div class="divider">
-			<div class="divider-line"></div>
-			<div class="divider-word">Roles</div>
-			<div class="divider-line"></div>
-		</div>
-	</div>
+	{% include divider.html title="Roles" %}
 
 	<li>
 		<button id="freeagent-skills-toggle" class="portfolio-clickable">
@@ -73,6 +67,35 @@ layout: header-and-footer
 			</div>
 		</button>
 	</li>
+
+	<!-- {% include divider.html title="Skills" %}
+
+	<div class="grid-container">
+	    <div class="grid-item">
+	    	<img src="/assets/images/swift.svg" alt="SwiftLang logo" class="app-icon">
+	    	<span>Swift</span>
+	    </div>
+	    <div class="grid-item">
+	    	<img src="/assets/images/swiftui.png" alt="SwiftUI logo" class="app-icon">
+	    	<span>SwiftUI</span>
+	    </div>
+	    <div class="grid-item">
+	    	<img src="/assets/images/ruby.png" alt="RubyLang logo" class="app-icon">
+	    	<span>Ruby</span>
+	    </div>
+	    <div class="grid-item">
+	    	<img src="/assets/images/rails.png" alt="Ruby on Rails logo" class="app-icon">
+	    	<span>Swift</span>
+	    </div>
+	    <div class="grid-item">
+	    	<img src="/assets/images/swift.svg" alt="SwiftLang logo" class="app-icon">
+	    	<span>Swift</span>
+	    </div>
+	    <div class="grid-item">
+	    	<img src="/assets/images/swift.svg" alt="SwiftLang logo" class="app-icon">
+	    	<span>Swift</span>
+	    </div>
+	</div> -->
 </ul>
 
 <script>

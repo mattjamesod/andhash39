@@ -36,6 +36,13 @@
 	}
 }
 
+.portfolio-not-clickable {
+	padding: 12px;
+	border-radius: 12px;
+	transition: transform 0.2s ease-in-out;
+	transition: background-color 0.1s linear;
+}
+
 .portfolio-highlight-text {
 	display: flex;
 	flex-direction: column;
@@ -96,4 +103,15 @@
 .portfolio-skills-container p {
   	margin-block-start: 0px;
   	margin-block-end: 6px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Adjust column width */
+    gap: 30px;
+}
+
+.grid-item {
+    text-align: center;
+	font-size: 0.9rem;
 }
