@@ -204,3 +204,8 @@ footer {
 	font-size: 0.8rem;
 	color: var(--grey);
 }
+
+blockquote {
+	color: var(--grey);
+	font-style: italic;
+}
