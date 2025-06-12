@@ -60,7 +60,7 @@ body {
 }
 
 body {
-  font-family: "Montserrat", -apple-system, system-ui, Verdana, sans-serif;
+  font-family: "Roboto Flex", -apple-system, system-ui, Verdana, sans-serif;
 }
 
 main {
@@ -68,7 +68,7 @@ main {
 }
 
 p {
-	line-height: 1.6;
+	line-height: 2.0;
 }
 
 .portfolio-detail-content {
