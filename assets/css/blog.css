@@ -1,9 +1,16 @@
 
+h1 {
+  text-align: center;
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
   display: grid;
   gap: 0.5rem;
+  h1 {
+    text-align: left;
+  }
 }
 
 .post-list h1,

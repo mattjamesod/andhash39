@@ -1,15 +1,22 @@
+
+.portfolio-container {
+	margin-left: 0rem;
+	margin-right: 0rem;
+
+	@media (min-width: 1800px) { 
+		margin-left: 2.5rem;
+		margin-right: 2.5rem;
+	}
+
+	h1 {
+		text-align: center;
+	}
+}
+
 .portfolio-list {
 	list-style-type: none;
 	display: flex;
 	flex-direction: column;
-	margin-left: 0rem;
-	margin-right: 0rem;
-
-	@media (min-width: 600px) { 
-		margin-left: 2.5rem;
-		margin-right: 2.5rem;
-	}
-	gap: 1rem;
 }
 
 .portfolio-highlight {
@@ -24,6 +31,7 @@
 	border-radius: 12px;
 	transition: transform 0.2s ease-in-out;
 	transition: background-color 0.1s linear;
+	flex-grow: 1;
 
 	&:hover {
 		background-color: var(--subtle-highlight);
@@ -66,6 +74,7 @@
   	max-width: 57px; 
   	max-height: 57px; 
   	height:auto;
+	border-radius: 15%;
 }
 
 .avamae {

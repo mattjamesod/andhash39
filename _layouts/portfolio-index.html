@@ -2,126 +2,84 @@
 layout: header-and-footer
 ---
 
-<ul class="portfolio-list">
-	{% include divider.html title="Apps" %}
+<div class="portfolio-container">
+	<h1>Portfolio 🧑‍💻</h1>
 
-	<li>
-		<a href="thought-path" class="portfolio-highlight portfolio-clickable">
-			<img src="/assets/images/thought-path-icon.png" alt="Thought Path Icon" class="app-icon">
-			<div class ="portfolio-highlight-text">
-				<h3>Thought Path</h3>
-				<span>The first point of contact for all your thoughts, ideas, and tasks; see the output of 	your brain over time.</span>
-			</div>
-		</a>
-	</li>
+	<p>I have five years of experience as a developer using a wide varierty of technologies, and I consider myself a generalist who can adapt to any problem. My portfolio of independent iOS apps is below, built using native technologies (<b>Swift</b> and <b>SwiftUI</b>). I have extensive web development experience with <b>Ruby</b>, <b>SQL</b>, <b>JS</b>, and <b>C#/.NET</b>.</p>
 
-	<li>
-		<a href="contextable" class="portfolio-highlight portfolio-clickable">
-			<img src="/assets/images/contextable-icon.png" alt="Contextable Icon" class="app-icon">
-			<div class ="portfolio-highlight-text">
-				<h3>Contextable</h3>
-				<span>A beautiful SwiftUI flashcards app, designed for language learners; put all your words in context.</span>
-			</div>
-		</a>
-	</li>
-
-	{% include divider.html title="Roles" %}
-
-	<li>
-		<button id="freeagent-skills-toggle" class="portfolio-clickable">
+	<ul class="portfolio-list">
+		{% include divider.html title="Apps" %}
+	
+		<!-- <li>
 			<div class="portfolio-highlight">
-				<img class="app-icon" src="/assets/images/freeagent.png" alt="FreeAgent Logo">
-				<div class ="portfolio-highlight-text">
-					<h3>FreeAgent</h3>
-					<span>Software Engineer</span>
-				</div>
-				<span class="employment-span">Mar 2022 - Present</span>
+				<a href="timescape" class="portfolio-clickable portfolio-highlight">
+					<img src="/assets/images/timescape-icon.png" alt="Timescape Icon" class="app-icon">
+					<div class ="portfolio-highlight-text">
+						<h3>Timescape</h3>
+						<span>The big picture view of your year.</span>
+					</div>
+				</a>
+				<a href="https://apps.apple.com/us/app/thought-path/id6458731090">
+					<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Timescape">
+				</a>
 			</div>
-			<div class="portfolio-skills" id="freeagent-skills">
-				<div class="portfolio-skills-container">
-				  <p>FreeAgent is a company that makes accountancy software for small businesses.</p>
-
-				  <p>At FreeAgent I contributed to our customer-facing Ruby-on-Rails application, led on technical decisions and was outspoken in product discussions. I also helped conduct interviews and onboard new hires to my team.</p>
-
-				  <p></p>
-				</div>
-			</div>
-		</button>
-	</li>
-
-	<li>
-		<button id="avamae-skills-toggle" class="portfolio-clickable">
+		</li> -->
+	
+		<li>
 			<div class="portfolio-highlight">
-				<img class="app-icon avamae" src="/assets/images/avamae-light.png" alt="AVAMAE Logo">
-				<div class ="portfolio-highlight-text">
-					<h3>AVAMAE</h3>
-					<span>Cloud Software Engineer</span>
-				</div>
-				<span class="employment-span">Dec 2019 - Mar 2022</span>
+				<a href="thought-path" class="portfolio-highlight portfolio-clickable">
+					<img src="/assets/images/thought-path-icon.png" alt="Thought Path Icon" class="app-icon">
+					<div class ="portfolio-highlight-text">
+						<h3>Thought Path</h3>
+						<span>The first point of contact for all your thoughts, ideas, and tasks.</span>
+					</div>
+				</a>
+				<a href="https://apps.apple.com/us/app/thought-path/id6458731090">
+					<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Thought Path">
+				</a>
 			</div>
-			<div class="portfolio-skills" id="avamae-skills">
-				<div class="portfolio-skills-container">
-				  <p>AMAMAE is web consulting company that had around 20 employees when I joined in 2019.</p>
-				  <p>At AVAMAE I built and scaled websites for our clients. I was involved in technical decision making, required to be an independent communicator, and was responsible for meeting tight deadlines.</p>
-				</div>
+		</li>
+	
+		<li>
+			<div class="portfolio-highlight">
+				<a href="contextable" class="portfolio-highlight portfolio-clickable">
+					<img src="/assets/images/contextable-icon.png" alt="Contextable Icon" class="app-icon">
+					<div class ="portfolio-highlight-text">
+						<h3>Contextable</h3>
+						<span>A stylish flashcards app, to put your vocabularly in context.</span>
+					</div>
+				</a>
+				<a href="https://apps.apple.com/us/app/contextable/id1622457817">
+					<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Contextable">
+				</a>
 			</div>
-		</button>
-	</li>
-
-	<!-- {% include divider.html title="Skills" %}
-
-	<div class="grid-container">
-	    <div class="grid-item">
-	    	<img src="/assets/images/swift.svg" alt="SwiftLang logo" class="app-icon">
-	    	<span>Swift</span>
-	    </div>
-	    <div class="grid-item">
-	    	<img src="/assets/images/swiftui.png" alt="SwiftUI logo" class="app-icon">
-	    	<span>SwiftUI</span>
-	    </div>
-	    <div class="grid-item">
-	    	<img src="/assets/images/ruby.png" alt="RubyLang logo" class="app-icon">
-	    	<span>Ruby</span>
-	    </div>
-	    <div class="grid-item">
-	    	<img src="/assets/images/rails.png" alt="Ruby on Rails logo" class="app-icon">
-	    	<span>Swift</span>
-	    </div>
-	    <div class="grid-item">
-	    	<img src="/assets/images/swift.svg" alt="SwiftLang logo" class="app-icon">
-	    	<span>Swift</span>
-	    </div>
-	    <div class="grid-item">
-	    	<img src="/assets/images/swift.svg" alt="SwiftLang logo" class="app-icon">
-	    	<span>Swift</span>
-	    </div>
-	</div> -->
+		</li>
+	
+	<!-- <script>
+		document.getElementById("freeagent-skills-toggle").addEventListener("click", function() {
+			var content = document.getElementById("freeagent-skills");
+			var clickable = document.getElementById("freeagent-skills-toggle");
+	
+		  	if (content.style.maxHeight) {
+		  		clickable.classList.remove("clicked");
+	  			content.style.maxHeight = null;
+	  		} else {
+		  		clickable.classList.add("clicked");
+	  			content.style.maxHeight = content.scrollHeight + "px";
+	  		}
+		});
+	
+		document.getElementById("avamae-skills-toggle").addEventListener("click", function() {
+			var content = document.getElementById("avamae-skills");
+			var clickable = document.getElementById("avamae-skills-toggle");
+			
+		  	if (content.style.maxHeight) {
+		  		clickable.classList.remove("clicked");
+	  			content.style.maxHeight = null;
+	  		} else {
+		  		clickable.classList.add("clicked");
+	  			content.style.maxHeight = content.scrollHeight + "px";
+	  		}
+		});
+	</script> -->	
 </ul>
-
-<script>
-	document.getElementById("freeagent-skills-toggle").addEventListener("click", function() {
-		var content = document.getElementById("freeagent-skills");
-		var clickable = document.getElementById("freeagent-skills-toggle");
-
-	  	if (content.style.maxHeight) {
-	  		clickable.classList.remove("clicked");
-  			content.style.maxHeight = null;
-  		} else {
-	  		clickable.classList.add("clicked");
-  			content.style.maxHeight = content.scrollHeight + "px";
-  		}
-	});
-
-	document.getElementById("avamae-skills-toggle").addEventListener("click", function() {
-		var content = document.getElementById("avamae-skills");
-		var clickable = document.getElementById("avamae-skills-toggle");
-		
-	  	if (content.style.maxHeight) {
-	  		clickable.classList.remove("clicked");
-  			content.style.maxHeight = null;
-  		} else {
-	  		clickable.classList.add("clicked");
-  			content.style.maxHeight = content.scrollHeight + "px";
-  		}
-	});
-</script>
