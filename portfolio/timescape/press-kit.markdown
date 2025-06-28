@@ -13,7 +13,9 @@ Timescape is an iPhone calendar utility designed to be used in tandem with a pri
 	<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Timescape">
 </a>
 
+
 ### The Grid
+
 
 The advantage of Timescape is a full-screen grid view showing an entire year without gaps between the months. All events for the entire year are visible on the grid: all-day events, or days that span over multiple days, are shown as capsules. Events contained within a single day are shown as dots. Days in the past have reduced opacity until they are selected, to focus on the upcoming months.
 
@@ -22,6 +24,8 @@ Timescape intentionally does not allow you to zoom in on a month, week, or day: 
 Timescape's grid will adapt to the user's local calendar, e.g. starting the week on Sunday in the US while starting the week on Monday in the EU. The grid's short month names are automatically localised.
 
 In v1.0, the user can see 2024, 2025 or 2026. Swiping on the grid changes year.
+
+<img src="/assets/press/timescape-framed-screenshots/CarouselView.png" alt="Timescape Carousel" style="display: block; margin-left: auto; margin-right: auto;max-width:50%; height:auto;">
 
 ### Event Controls
 
