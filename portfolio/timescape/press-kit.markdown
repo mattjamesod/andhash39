@@ -1,7 +1,7 @@
 ---
 layout: just-footer
 ---
-## About Timescape
+# About Timescape
 
 Timescape is an iPhone calendar utility designed to be used in tandem with a primary calendar app like Apple Calendar or Fantastical. Timescape is for big-picture life planning. It reads and writes to the system calendars on the iPhone, both local and those backed by cloud services like iCloud.
 
@@ -14,7 +14,7 @@ Timescape is an iPhone calendar utility designed to be used in tandem with a pri
 </a>
 
 
-### The Grid
+## The Grid
 
 
 The advantage of Timescape is a full-screen grid view showing an entire year without gaps between the months. All events for the entire year are visible on the grid: all-day events, or days that span over multiple days, are shown as capsules. Events contained within a single day are shown as dots. Days in the past have reduced opacity until they are selected, to focus on the upcoming months.
@@ -27,23 +27,23 @@ In v1.0, the user can see 2024, 2025 or 2026. Swiping on the grid changes year.
 
 <img src="/assets/press/timescape-framed-screenshots/CarouselView.png" alt="Timescape Carousel" style="display: block; margin-left: auto; margin-right: auto;max-width:50%; height:auto;">
 
-### Event Controls
+## Event Controls
 
 When a day is selected by tapping on its square on the grid, or by using the controls at the bottom, any events on that day will be shown in a compact ribbon above the controls. This keeps focus on the grid.
 
 Events can be created, edited, or deleted directly from Timescape. v1.0 a subset of the event properties provided by Apple's EventKit can be seen and modified.
 
-### Calendar Filters
+## Calendar Filters
 
 To keep focus on the big picture, Timescape allows you to hide calendars that you might want to see in a primary calendar app. This is part of onboarding, and can be changed at any time from settings.
 
-### Pricing
+## Pricing
 
 Timescape has a hard paywall in onboarding. A monthly subscription is $0.99 or regional equivalents, while a yearly subscription is $4.99 or equivalents. Both include a 7-day free trial.
 
 Users are encouraged in the paywall view to use the monthly subscription temporarily, as a planning tool when thinking about an upcoming year or season.
 
-## About the Developer
+# About the Developer
 
 I'm Matthew O'Donnell, a London-based developer with 5 years of experience. I'm a web developer by day, and make indie apps by night.
 

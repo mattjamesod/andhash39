@@ -10,6 +10,7 @@
 	@media (prefers-color-scheme: light) {
 		--background-color: var(--neutral-one);
 		--text-color: var(--neutral-two);
+		--text-color-secondary: var(--neutral-four);
 		--highlight: var(--accent-two);
 		--subtle-highlight: var(--neutral-three);
 	}
@@ -17,6 +18,7 @@
 	@media (prefers-color-scheme: dark) {
 		--background-color: var(--main);
 		--text-color: var(--neutral-one);
+		--text-color-secondary: var(--neutral-one);
 		--highlight: var(--accent-two);
 		--subtle-highlight: var(--neutral-three);
 	}
@@ -28,6 +30,7 @@
 		--neutral-one: #gagaga;
 		--neutral-two: #333333;
 		--neutral-three: #F5F5F5;
+		--neutral-four: #6B7280;
 	}
 
 	@media (prefers-color-scheme: dark) {
@@ -37,6 +40,7 @@
 		--neutral-one: #F5F5F5;
 		--neutral-two: #FFFFFF;
 		--neutral-three: #233146;
+		--neutral-four: #9CA3AF;
 	}
 }
 
@@ -86,14 +90,19 @@ a {
 	&:visited {
 		color: var(--link-color-visited);
 	}
-}
+}	
 
 h1, h2, h3 {
 	color: var(--text-color);
 }
 
+h2, h3 {
+	margin-top: 50px;
+}
+
 body {
 	gap: 1rem;
+	font-size: 1.2rem;
 }
 
 nav ul {
@@ -136,8 +145,6 @@ nav li .active {
 
 ul, menu, dir {
 	display: block;
-	margin-block-start: 0em;
-	margin-block-end: 0em;
 	padding-inline-start: 0px;
 }
 
