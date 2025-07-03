@@ -60,11 +60,15 @@ body {
 }
 
 .title-font {
-	font-family: "Merriweather", serif;
+	font-family: "Funnel Display", serif;
+}
+
+.centered {
+	text-align: center;
 }
 
 body {
-  font-family: "Roboto Flex", -apple-system, system-ui, Verdana, sans-serif;
+  font-family: "Funnel Sans", -apple-system, system-ui, Verdana, sans-serif;
 }
 
 main {
@@ -187,10 +191,17 @@ ul, menu, dir {
   border-radius: 500px;
 }
 
-.image-frame {
+.circle-frame {
   max-width:40%; 
   height:auto;
   border-radius: 9000px;
+  cursor: url('/assets/images/dragon-age-cursor.png'), auto;
+}
+
+.image-frame {
+  max-width:50%; 
+  height:auto;
+  border-radius: 20px;
   cursor: url('/assets/images/dragon-age-cursor.png'), auto;
 }
 

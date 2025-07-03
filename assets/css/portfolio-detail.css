@@ -57,6 +57,7 @@
   max-height: 80px; 
   height:auto;
 	margin-block-end: 1rem; 
+	border-radius: 15%;
 }
 
 .image-flex-container, .image-flex-container-reverse {
