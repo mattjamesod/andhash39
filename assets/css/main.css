@@ -211,7 +211,7 @@ ul, menu, dir {
 	gap: 2rem;
 
 	.image-container {
-  	max-width: 40%; 
+  	max-width: 100%; 
 	}
 }
 
@@ -219,10 +219,10 @@ ul, menu, dir {
 	.image-flex-container {
 		flex-direction: row;
 		align-items: center;
-	}
 
-	.image-container {
-  	max-width: 90%; 
+		.image-container {
+	  	max-width: 40%; 	
+		}
 	}
 }
 
@@ -230,10 +230,10 @@ ul, menu, dir {
 	.image-flex-container-reverse {
 		flex-direction: row-reverse;
 		align-items: stretch;
-	}
 
-	.image-container {
-  	max-width: 90%; 
+		.image-container {
+	  	max-width: 40%; 	
+		}
 	}
 }
 

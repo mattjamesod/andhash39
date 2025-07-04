@@ -2,7 +2,6 @@
   margin-left: 0;
   list-style: none;
   display: grid;
-  gap: 0.5rem;
   h1 {
     text-align: left;
   }
@@ -11,7 +10,6 @@
 .post-list h1,
 .post-list p {
   margin-block-start: 0px;
-  margin-block-end: 0.4rem;
 }
 
 .post-header {
@@ -21,7 +19,6 @@
 }
 
 .post-header p {
-  font-size: 0.9rem;
   margin-block-start: 0px;
 }
 
@@ -30,9 +27,8 @@
   flex-direction: column;
   align-items: center;
 	font-size: 2.5rem;
-  color: var(--highlight);
+  color: var(--accent-one);
   text-transform: uppercase;
-  font-variant: small-caps;
 }
 
 .post-meta-first {
@@ -53,18 +49,21 @@
   margin-top: 0.3rem;
 }
 
+.post-index-item {
+
+}
+
 .post-preview p {
   color: var(--text-color);
 }
 
-.post-link {
+.post-title {
 	font-size: 1.2rem;
 	font-weight: 600;
 }
 
 .post-date {
   color: var(--grey);
-  font-size: 0.9rem;
 }
 
 .post-content strong {
@@ -95,17 +94,4 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
-}
-
-.continue-reading {
-	font-weight: 500;
-	color: var(--text-color);
-	font-size: 0.7rem;
-  text-transform: uppercase;
-  font-variant: small-caps;
-  margin-block-end: 0px;
-
-	&:visited {
-		color: var(--text-color);
-	}
 }

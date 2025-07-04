@@ -3,14 +3,14 @@
 {% assign limited_words = words | slice: 0, 50 %}
 {% assign limited_text = limited_words | join: ' ' %}
 
-<li class="portfolio-clickable">
+<li class="portfolio-clickable post-index-item">
 	<a class="post-header" href="{{ post.url | relative_url }}">
 		<div class="post-meta">
 			<div class="post-meta-first">{{ post.date | date: date_format_1 }}</div>
 			<div class="post-meta-second">{{ post.date | date: date_format_2 }}</div>
 		</div>
 		<div class="post-preview">
-			<h1 class="post-link">{{ post.title }}</h1>
+			<h2 class="title-font post-title">{{ post.title }}</h1>
 			<p>{{ limited_text }}...</p> <!-- This limited_text spits out a p tag for some reason -->
 		</div>
 	</a>
