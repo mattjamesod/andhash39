@@ -10,9 +10,15 @@
 
 .contact-links-list {
 	display: flex; 
-	flex-direction: row; 
+	flex-direction: column; 
 	list-style-type: none;
 	gap: 1rem;
+}
+
+@media (min-width: 700px) {
+	.contact-links-list {
+		flex-direction: row;
+	}
 }
 
 .contact-link {

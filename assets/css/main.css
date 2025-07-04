@@ -197,18 +197,43 @@ ul, menu, dir {
   border-radius: 500px;
 }
 
-.circle-frame {
-  max-width:40%; 
-  height:auto;
-  border-radius: 9000px;
-  cursor: url('/assets/images/dragon-age-cursor.png'), auto;
-}
-
-.image-frame {
-  max-width:40%; 
+.image-container {	
   height:auto;
   border-radius: 5px;
   cursor: url('/assets/images/dragon-age-cursor.png'), auto;
+}
+
+.image-flex-container, .image-flex-container-reverse {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	gap: 2rem;
+
+	.image-container {
+  	max-width: 40%; 
+	}
+}
+
+@media (min-width: 850px) {
+	.image-flex-container {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.image-container {
+  	max-width: 90%; 
+	}
+}
+
+@media (min-width: 850px) {
+	.image-flex-container-reverse {
+		flex-direction: row-reverse;
+		align-items: stretch;
+	}
+
+	.image-container {
+  	max-width: 90%; 
+	}
 }
 
 .colored-container {

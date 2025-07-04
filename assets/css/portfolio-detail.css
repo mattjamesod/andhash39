@@ -60,29 +60,6 @@
 	border-radius: 15%;
 }
 
-.image-flex-container, .image-flex-container-reverse {
-	margin-top: 24px; 
-	margin-bottom: 24px;
-	display: flex;
-	flex-direction: column;
-	align-items: center; 
-	gap: 2rem;
-}
-
-@media (min-width: 600px) {
-	.image-flex-container {
-		flex-direction: row;
-		align-items: stretch;
-	}
-}
-
-@media (min-width: 600px) {
-	.image-flex-container-reverse {
-		flex-direction: row-reverse;
-		align-items: stretch;
-	}
-}
-
 .image-flex-container-img {
 	max-width: 60%; 
 	height: auto;
