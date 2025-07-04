@@ -1,0 +1,22 @@
+.now {
+	padding: 40px;
+	max-width: min(80%, 1000px);
+	margin: 20px auto 20px auto;
+}
+
+.about-container > * {
+	margin-bottom: 40px;
+}
+
+.contact-links-list {
+	display: flex; 
+	flex-direction: row; 
+	list-style-type: none;
+	gap: 1rem;
+}
+
+.contact-link {
+	padding: 10px;
+	background-color: var(--neutral-three);
+  	border-radius: 5px;
+}
