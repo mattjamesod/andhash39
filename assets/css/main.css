@@ -27,10 +27,10 @@
 		--main: #6A7BFF;
 		--accent-one: #00B4CC;
 		--accent-two: #FF6B6B;
-		--neutral-one: #gagaga;
+		--neutral-one: #ffffff;
 		--neutral-two: #333333;
 		--neutral-three: #F5F5F5;
-		--neutral-four: #6B7280;
+		--neutral-four: #DDDDDD;
 	}
 
 	@media (prefers-color-scheme: dark) {
@@ -58,6 +58,7 @@ body {
 
 .title-font {
 	font-family: "Funnel Display", serif;
+	margin-top: 0px;
 
 	strong {
 		color: var(--accent-one);
