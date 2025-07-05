@@ -30,6 +30,7 @@
 }
 
 .block-link {
+  	text-decoration: none;
 	padding: 10px;
 	color: var(--accent-two);
 	background-color: var(--neutral-three);
