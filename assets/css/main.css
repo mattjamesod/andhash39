@@ -92,7 +92,7 @@ p {
 
 a {
 	color: var(--link-color);
-	text-decoration: none;
+	/*text-decoration: none;*/
 
 	&:hover {
 		color: var(--link-color-hover);

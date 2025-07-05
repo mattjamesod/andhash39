@@ -13,6 +13,7 @@
 }
 
 .post-header {
+  text-decoration: none;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
@@ -47,10 +48,6 @@
   display: flex;
   flex-direction: column;
   margin-top: 0.3rem;
-}
-
-.post-index-item {
-
 }
 
 .post-preview p {
