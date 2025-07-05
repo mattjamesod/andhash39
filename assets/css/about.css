@@ -12,12 +12,13 @@
 	display: flex; 
 	flex-direction: column; 
 	list-style-type: none;
-	gap: 1rem;
+	gap: 2rem;
 }
 
 @media (min-width: 700px) {
 	.block-link-list {
 		flex-direction: row;
+		gap: 1rem;
 	}
 }
 
@@ -30,5 +31,5 @@
   	&:hover {
 		background-color: var(--accent-two);
 		color: var(--neutral-one);
-  	}
+  	}	
 }

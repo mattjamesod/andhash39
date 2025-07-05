@@ -5,9 +5,11 @@ layout: just-footer
 
 Timescape is an iPhone calendar utility designed to be used in tandem with a primary calendar app like Apple Calendar or Fantastical. Timescape is for big-picture life planning. It reads and writes to the system calendars on the iPhone, both local and those backed by cloud services like iCloud.
 
- - <a href="/assets/press/timescape-screenshots.zip" download>Download Screenshots (iPhone 16 Pro Max)</a>
- - <a href="/assets/press/timescape-framed-screenshots.zip" download>Download Framed Screenshots (iPhone 16 Pro Max)</a>
- - <a href="/assets/images/timescape-icon.png" download>Download App Icon</a>
+<ul>
+	<a href="/assets/press/timescape-screenshots.zip" download>Download Screenshots (iPhone 16 Pro Max)</a>
+	<a href="/assets/press/timescape-framed-screenshots.zip" download>Download Framed Screenshots (iPhone 16 Pro Max)</a>
+	<a href="/assets/images/timescape-icon.png" download>Download App Icon</a>
+</ul>
 
 <a href="https://apps.apple.com/us/app/timescape-year-planner/id6744339214">
 	<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Timescape">
@@ -15,7 +17,6 @@ Timescape is an iPhone calendar utility designed to be used in tandem with a pri
 
 
 ## The Grid
-
 
 The advantage of Timescape is a full-screen grid view showing an entire year without gaps between the months. All events for the entire year are visible on the grid: all-day events, or days that span over multiple days, are shown as capsules. Events contained within a single day are shown as dots. Days in the past have reduced opacity until they are selected, to focus on the upcoming months.
 
