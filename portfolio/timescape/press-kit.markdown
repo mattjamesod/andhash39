@@ -9,7 +9,7 @@ Timescape is an iPhone calendar utility designed to be used in tandem with a pri
  - <a href="/assets/press/timescape-framed-screenshots.zip" download>Download Framed Screenshots (iPhone 16 Pro Max)</a>
  - <a href="/assets/images/timescape-icon.png" download>Download App Icon</a>
 
-<a href="https://apps.apple.com/us/app/thought-path/id6458731090">
+<a href="https://apps.apple.com/us/app/timescape-year-planner/id6744339214">
 	<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Timescape">
 </a>
 
