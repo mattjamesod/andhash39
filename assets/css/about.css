@@ -15,6 +15,13 @@
 	gap: 2rem;
 }
 
+.block-link-list-no-flex {
+	display: flex; 
+	flex-direction: column; 
+	list-style-type: none;
+	gap: 2rem;
+}
+
 @media (min-width: 700px) {
 	.block-link-list {
 		flex-direction: row;
@@ -27,6 +34,7 @@
 	color: var(--accent-two);
 	background-color: var(--neutral-three);
   	border-radius: 5px;
+  	text-wrap: nowrap;
 
   	&:hover {
 		background-color: var(--accent-two);
