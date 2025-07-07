@@ -1,11 +1,12 @@
 <header>
-  <!-- <h1><a class="and-hash-thirty-nine" href="/">&amp;#39;</a></h1> -->
+  <h1>
+    &amp;#39;
+  </h1>
   <nav class="navigation">
-    <ul>
-      <li><a {% if page.navigation_category == "writing" %}class="active"{% endif %} href="/">Writing</a></li>
-      <li><a {% if page.navigation_category == "portfolio" %}class="active"{% endif %} href="/portfolio">Portfolio</a></li>
-      <!-- <li><a {% if page.url == "/library/" %}class="active"{% endif %} href="/library/">Library</a></li> -->
-      <li><a {% if page.url == "/about/" %}class="active"{% endif %} href="/about/">About</a></li>
+    <ul class="navigation-menu">
+      <li><a class="navigation-link {% if page.navigation_category == "writing" %} active{% endif %}" href="/">Writing</a></li>
+      <li><a class="navigation-link {% if page.navigation_category == "portfolio" %} active{% endif %}" href="/portfolio">Portfolio</a></li>
+      <li><a class="navigation-link {% if page.url == "/about/" %} active{% endif %}" href="/about/">About</a></li>
     </ul>
   </nav>
 </header>

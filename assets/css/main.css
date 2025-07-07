@@ -37,7 +37,7 @@
 		--main: #2C3E50;
 		--accent-one: #3498DB;
 		--accent-two: #FF6B6B;
-		--neutral-one: #F5F5F5;
+		--neutral-one: #F5F5F5;s
 		--neutral-two: #FFFFFF;
 		--neutral-three: #233146;
 		--neutral-four: #9CA3AF;
@@ -45,11 +45,11 @@
 }
 
 body {
+  font-family: "Funnel Sans", -apple-system, system-ui, Verdana, sans-serif;
+
   background-color: var(--background-color);
   color: var(--text-color);
-}
 
-body {
 	margin: 40px auto 40px auto;
 	max-width: min(80%, 980px);
 	display: flex;
@@ -78,21 +78,12 @@ body {
 	text-align: center;
 }
 
-body {
-  font-family: "Funnel Sans", -apple-system, system-ui, Verdana, sans-serif;
-}
-
 p {
 	line-height: 2.0;
 }
 
-.portfolio-detail-content {
-	line-height: 1.6;
-}
-
 a {
 	color: var(--link-color);
-	/*text-decoration: none;*/
 
 	&:hover {
 		color: var(--link-color-hover);
@@ -116,7 +107,7 @@ body {
 	font-size: 1.2rem;
 }
 
-nav ul {
+.navigation-menu {
 	width: auto;
 	border-radius: 500px;
 	display: flex;
@@ -126,7 +117,7 @@ nav ul {
 	gap: 5px;
 }
 
-nav li a {
+.navigation-link {
 	color: var(--text-color);
 	display: block;
 	text-align: center;
@@ -147,7 +138,7 @@ nav li a {
 	}
 }
 
-nav li .active {
+.navigation-link.active {
 	font-weight: 450;
 	background-color: var(--subtle-highlight);
   border-radius: 500px;
@@ -241,17 +232,6 @@ ul, menu, dir {
 	background-color: var(--neutral-three);
   width: 100vw;
   margin-left: calc(50% - 50vw);
-}
-
-button {
-  border: none; /* Remove borders */
-  background-color: transparent; /* Remove background color */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-  font: inherit; /* Inherit font styles */
-  color: inherit; /* Inherit text color */
-  cursor: pointer; /* Set cursor to pointer */
-  outline: none; /* Remove outline */
 }
 
 footer {
