@@ -37,10 +37,10 @@
 		--main: #2C3E50;
 		--accent-one: #3498DB;
 		--accent-two: #FF6B6B;
-		--neutral-one: #F5F5F5;s
+		--neutral-one: #F5F5F5;
 		--neutral-two: #FFFFFF;
 		--neutral-three: #233146;
-		--neutral-four: #9CA3AF;
+		--neutral-four: #4A5564;
 	}
 }
 
@@ -50,7 +50,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 
-	margin: 40px auto 40px auto;
+	margin: 0px auto 40px auto;
 	max-width: min(80%, 980px);
 	display: flex;
 	flex-direction: column;
@@ -107,29 +107,41 @@ body {
 	font-size: 1.2rem;
 }
 
-.navigation-menu {
-	width: auto;
-	border-radius: 500px;
+header {
+	margin-bottom: 20px;
+}
+
+.header-container {
 	display: flex;
-	justify-content: center;
-	flex-shrink: 0;
+	align-items: center;
+	gap: 15px;
+	padding: 0px 40px;
+	max-width: min(80%, 980px);
+	margin: 5px auto 5px auto;
+}
+
+.site-logo {
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--accent-one);
+	margin-block-end: 0;
+}
+
+.navigation-menu {
+	display: flex;
 	list-style-type: none;
 	gap: 5px;
 }
 
 .navigation-link {
 	color: var(--text-color);
-	display: block;
-	text-align: center;
-	font-size: 0.9rem;
 	padding: 8px 16px;
-	text-decoration: none;
-  border-radius: 500px;
+  border-radius: 5px;
 	transition: transform 0.2s ease-in-out;
 	transition: background-color 0.1s linear;
 
 	&:hover:not(.active) {
-		background-color: var(--subtle-highlight);
+		background-color: var(--neutral-four);
 		transform: scale(1.04);
 	}
 
@@ -139,9 +151,9 @@ body {
 }
 
 .navigation-link.active {
-	font-weight: 450;
-	background-color: var(--subtle-highlight);
-  border-radius: 500px;
+	font-weight: 500;
+	text-decoration: underline;
+	background-color: var(--neutral-four	);
 	transform: scale(1.04);
 }
 
