@@ -5,17 +5,22 @@ layout: header-and-footer
 <h1 class="title-font">Portfolio</h1>
 
 <p>I have five years of experience as a developer using a wide varierty of technologies, and I consider myself a generalist who can adapt to any problem. My portfolio of independent iOS apps is below, built using native technologies (<b>Swift</b> and <b>SwiftUI</b>). I have extensive web development experience with <b>Ruby</b>, <b>SQL</b>, <b>JS</b>, and <b>C#/.NET</b>.</p>
+
+<nav>
+	<ul class="block-link-list">
+		<a class="block-link" href="https://github.com/mattjamesod"><li>GitHub &#8599;</li></a>
+		<!-- <a class="block-link" href="https://github.com/mattjamesod"><li>Resume &#8595;</li></a> -->
+	</ul>
+</nav>
 	
 <div class="colored-container">
 	<div class="now">
 		<h2 class="title-font">Apps</h2>
-		<nav>
-			<ul class="portfolio-list">
+			<menu class="portfolio-list">
 				{% assign ordered_apps = site.apps | sort: "order" %}
 	    		{% for app in ordered_apps %}
 	    			{% include portfolio-app-item.html app=app %}
 	    		{% endfor %}
-			</ul>
-		</nav>
+			</menu>
 	</div>
 </div>
