@@ -1,5 +1,11 @@
 ---
 layout: just-footer
 ---
-<a href={{ page.back_link }}>« {{ page.back_link_label | downcase }}</a>
+
+<header>
+	<nav class="focused-header-container">
+		<a class="block-link" href={{ page.back_link }}>&larr; {{ page.back_link_label | downcase }}</a>
+	</nav>
+</header>
+
 {{ content }}

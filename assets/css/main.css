@@ -120,6 +120,13 @@ header {
 	margin: 5px auto 5px auto;
 }
 
+.focused-header-container {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 10px 0px;
+}
+
 .site-logo {
 	font-size: 2rem;
 	font-weight: 600;
