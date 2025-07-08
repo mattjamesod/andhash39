@@ -5,55 +5,17 @@ layout: header-and-footer
 <h1 class="title-font">Portfolio</h1>
 
 <p>I have five years of experience as a developer using a wide varierty of technologies, and I consider myself a generalist who can adapt to any problem. My portfolio of independent iOS apps is below, built using native technologies (<b>Swift</b> and <b>SwiftUI</b>). I have extensive web development experience with <b>Ruby</b>, <b>SQL</b>, <b>JS</b>, and <b>C#/.NET</b>.</p>
-
+	
 <div class="colored-container">
 	<div class="now">
 		<h2 class="title-font">Apps</h2>
-		<ul class="portfolio-list">
-			<li>
-				<div class="portfolio-highlight">
-					<a href="timescape" class="portfolio-clickable portfolio-highlight">
-						<img src="/assets/images/timescape-icon.png" alt="Timescape Icon" class="app-icon">
-						<div class ="portfolio-highlight-text">
-							<h3>Timescape</h3>
-							<span>The big picture view of your year.</span>
-						</div>
-					</a>
-					<a href="https://apps.apple.com/us/app/timescape-year-planner/id6744339214">
-						<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Timescape">
-					</a>
-				</div>
-			</li>
-		
-			<li>
-				<div class="portfolio-highlight">
-					<a href="thought-path" class="portfolio-highlight portfolio-clickable">
-						<img src="/assets/images/thought-path-icon.png" alt="Thought Path Icon" class="app-icon">
-						<div class ="portfolio-highlight-text">
-							<h3>Thought Path</h3>
-							<span>The first point of contact for all your thoughts, ideas, and tasks.</span>
-						</div>
-					</a>
-					<a href="https://apps.apple.com/us/app/thought-path/id6458731090">
-						<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Thought Path">
-					</a>
-				</div>
-			</li>
-		
-			<li>
-				<div class="portfolio-highlight">
-					<a href="contextable" class="portfolio-highlight portfolio-clickable">
-						<img src="/assets/images/contextable-icon.png" alt="Contextable Icon" class="app-icon">
-						<div class ="portfolio-highlight-text">
-							<h3>Contextable</h3>
-							<span>A stylish flashcards app, to put your vocabularly in context.</span>
-						</div>
-					</a>
-					<a href="https://apps.apple.com/us/app/contextable/id1622457817">
-						<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for Contextable">
-					</a>
-				</div>
-			</li>
-		</ul>
+		<nav>
+			<ul class="portfolio-list">
+				{% assign ordered_apps = site.apps | sort: "order" %}
+	    		{% for app in ordered_apps %}
+	    			{% include portfolio-app-item.html app=app %}
+	    		{% endfor %}
+			</ul>
+		</nav>
 	</div>
 </div>

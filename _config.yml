@@ -23,8 +23,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Matthew O'Donnell is a software developer who makes some apps for Apple platforms:
   Thought Path, a productivity inbox app, and Contextable, a language flashcards app.
   He also writes blog posts about development, history, whatever.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://andhash39.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
+url: "https://andhash39.com"
+collections:
+  - apps
 
 # Build settings
 # theme: minima
