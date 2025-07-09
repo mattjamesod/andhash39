@@ -40,7 +40,7 @@ To keep focus on the big picture, Timescape allows you to hide calendars that yo
 
 ## Pricing
 
-Timescape has a hard paywall in onboarding. A monthly subscription is $0.99 or regional equivalents, while a yearly subscription is $4.99 or equivalents. Both include a 7-day free trial.
+Timescape has a hard paywall in onboarding. A monthly subscription is $0.99 or regional equivalents, while a yearly subscription is $7.99 or equivalents. Both include a 7-day free trial.
 
 Users are encouraged in the paywall view to use the monthly subscription temporarily, as a planning tool when thinking about an upcoming year or season.
 
