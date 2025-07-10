@@ -211,6 +211,9 @@ ul, menu, dir {
 .image-container {	
   height:auto;
   border-radius: 5px;
+}
+
+.secret-cursor {
   cursor: url('/assets/images/dragon-age-cursor.png'), auto;
 }
 
