@@ -63,10 +63,12 @@
 }
 
 .portfolio-image-container {
-  height: auto;
+	height: auto;
+	max-width: 80%;
+	margin-bottom: 100px;
 }
 
-.portfolio-image-flex {
+/*.portfolio-image-flex {
 	display: flex;
 	flex-direction: column;
 	align-items: center; 
@@ -87,7 +89,7 @@
 	  	max-width: 60%; 	
 		}
 	}
-}
+}*/
 
 .portfolio-detail-header a img {
 	margin-block-start: 1rem;
