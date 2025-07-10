@@ -8,6 +8,7 @@ external_link: https://apps.apple.com/us/app/timescape-year-planner/id6744339214
 navigation_category: portfolio
 back_link: /portfolio
 back_link_label: Full Portfolio
+header-background-class: timescape-header-color
 ---
 
 Timescape is a calendar app that shows your entire year: 52 weeks in a grid, no gaps. It's great for planning travel, checking upcoming birthdays, or thinking seriously about the time you have available.

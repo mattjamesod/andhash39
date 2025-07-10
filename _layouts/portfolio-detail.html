@@ -1,14 +1,22 @@
 ---
-layout: focus
+layout: just-footer
 ---
 
-<div class="portfolio-detail-header">
-	<img class="app-icon-big" src="{{ page.app_icon }}">
-	<h1 class="title-font">{{ page.title }}</h1>
-	<h2>{{ page.subtitle }}</h2>
-	<a href ="{{ page.external_link }}">
-		<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for {{ page.title }}">
-	</a>
-</div>
+<header class="{{ page.header-background-class }}">
+	<div class="portfolio-detail-header-container">
+		<nav class="focused-header-container">
+			<a class="block-link" href={{ page.back_link }}>&larr; {{ page.back_link_label | downcase }}</a>
+		</nav>
+	
+		<div class="portfolio-detail-header">
+			<img class="app-icon-big" src="{{ page.app_icon }}">
+			<h1 class="title-font">{{ page.title }}</h1>
+			<h2>{{ page.subtitle }}</h2>
+			<a href ="{{ page.external_link }}">
+				<img src="/assets/images/appstore.svg" target="_blank" alt="App Store link for {{ page.title }}">
+			</a>
+		</div>
+	</div>
+</header>
 
 <div class="portfolio-detail-content">{{ content }}</div>
