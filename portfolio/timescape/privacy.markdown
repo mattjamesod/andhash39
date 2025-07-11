@@ -3,8 +3,8 @@ layout: focus
 title: Timescape Privacy
 navigation_category: portfolio
 permalink: /portfolio/timescape/privacy
-back_link: /portfolio
-back_link_label: back
+back_link: /portfolio/timescape
+back_link_label: product page
 ---
 
 <h2 class="text-2xl font-bold font-serif">Personally Identifying Information</h2>

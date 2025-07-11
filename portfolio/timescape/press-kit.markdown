@@ -5,7 +5,7 @@ layout: just-footer
 
 Timescape is an iPhone calendar utility designed to be used in tandem with a primary calendar app like Apple Calendar or Fantastical. Timescape is for big-picture life planning. It reads and writes to the system calendars on the iPhone, both local and those backed by cloud services like iCloud.
 
-<ul class="block-link-list-no-flex">
+<ul class="link-list-no-flex">
 	<li><a class="block-link" href="/assets/press/timescape-screenshots.zip" download>Download Screenshots (iPhone 16 Pro Max)</a></li>
 	<li><a class="block-link" href="/assets/press/timescape-framed-screenshots.zip" download>Download Framed Screenshots (iPhone 16 Pro Max)</a></li>
 	<li><a class="block-link" href="/assets/images/timescape-icon.png" download>Download App Icon</a></li>

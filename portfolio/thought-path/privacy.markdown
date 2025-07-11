@@ -3,8 +3,8 @@ layout: focus
 title: Thought Path Privacy
 navigation_category: portfolio
 permalink: /portfolio/thought-path/privacy
-back_link: /portfolio
-back_link_label: back
+back_link: /portfolio/thought-path
+back_link_label: product page
 ---
 
 <h2 class="text-2xl font-bold font-serif">Personally Identifying Information</h2>

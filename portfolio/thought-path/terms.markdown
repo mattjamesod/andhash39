@@ -3,8 +3,8 @@ layout: focus
 title: Thought Path Terms of Use
 navigation_category: portfolio
 permalink: /portfolio/thought-path/terms
-back_link: /portfolio
-back_link_label: back
+back_link: /portfolio/thought-path
+back_link_label: product page
 ---
 
 # Terms of Use

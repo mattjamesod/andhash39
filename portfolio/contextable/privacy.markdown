@@ -3,7 +3,7 @@ layout: focus
 title: Contextable Privacy
 navigation_category: portfolio
 permalink: /portfolio/contextable/privacy
-back_link: /portfolio
+back_link: /portfolio/contextable
 back_link_label: back
 ---
 

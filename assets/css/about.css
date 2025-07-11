@@ -8,14 +8,14 @@
 	margin-bottom: 40px;
 }
 
-.block-link-list {
+.link-list {
 	display: flex; 
 	flex-direction: column; 
 	list-style-type: none;
 	gap: 2rem;
 }
 
-.block-link-list-no-flex {
+.link-list-no-flex {
 	display: flex; 
 	flex-direction: column; 
 	list-style-type: none;
@@ -23,7 +23,7 @@
 }
 
 @media (min-width: 700px) {
-	.block-link-list {
+	.link-list {
 		flex-direction: row;
 		gap: 1rem;
 	}
