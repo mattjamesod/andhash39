@@ -94,6 +94,10 @@ a {
 	}
 }	
 
+a img:hover, a img:focus {
+  opacity: 0.8; /* Optional: Adds a visual cue on hover/focus */
+}
+
 h1, h2, h3 {
 	color: var(--text-color);
 }
@@ -211,6 +215,14 @@ ul, menu, dir {
 .image-container {	
   height:auto;
   border-radius: 5px;
+}
+
+
+.portfolio-banner-image {
+	height: auto;
+	max-width: 80%;
+	margin: 0px auto 0px auto;
+	/*max-width: min(80%, 980px);*/
 }
 
 .secret-cursor {

@@ -62,41 +62,8 @@
 	}
 }
 
-.portfolio-image-container {
-	height: auto;
-	max-width: 80%;
-	margin-bottom: 100px;
-}
-
-/*.portfolio-image-flex {
-	display: flex;
-	flex-direction: column;
-	align-items: center; 
-	gap: 2rem;
-
-	.portfolio-image-container {
-  	max-width: 100%; 
-	}
-}
-
-
-@media (min-width: 850px) {
-	.porrtfolio-image-flex {
-		flex-direction: row;
-		align-items: center;
-
-		.portfolio-image-container {
-	  	max-width: 60%; 	
-		}
-	}
-}*/
-
 .portfolio-detail-header a img {
 	margin-block-start: 1rem;
-}
-
-.portfolio-detail-header a img:hover, a img:focus {
-  opacity: 0.8; /* Optional: Adds a visual cue on hover/focus */
 }
 
 .caption {
