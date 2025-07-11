@@ -1,5 +1,5 @@
 ---
-title: Writing
-layout: blog-index
-navigation_category: writing
+layout: portfolio-index
+title: Portfolio
+navigation_category: portfolio
 ---
