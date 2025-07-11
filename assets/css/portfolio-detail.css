@@ -17,11 +17,15 @@
 .portfolio-detail-header {
 	display: flex;
 	flex-direction: column;
-	gap: 0.4rem;
+	gap: 0.5rem;
 	align-items: center;
 	margin-block-end: 2rem;
 	padding-top: 20px;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
+}
+
+.portfolio-detail-app-store-link {
+	margin-top: 10px;
 }
 
 .timescape-header-color {
