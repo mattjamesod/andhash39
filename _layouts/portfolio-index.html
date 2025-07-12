@@ -23,8 +23,7 @@ layout: header-and-footer
 	<div class="now">
 		<h2 class="title-font">Apps</h2>
 			<menu class="portfolio-list">
-				{% assign ordered_apps = site.apps | sort: "order" %}
-	    		{% for app in ordered_apps %}
+	    		{% for app in site.apps %}
 	    			{% include portfolio-app-item.html app=app %}
 	    		{% endfor %}
 			</menu>
