@@ -27,6 +27,7 @@ baseurl: "/"
 url: "https://andhash39.com"
 collections:
   apps:
+    output: true
     sort_by: order
 
 # Build settings

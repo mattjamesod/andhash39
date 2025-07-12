@@ -85,4 +85,26 @@
 	border-radius: 15%;
 }
 
+.portfolio-banner-image {
+	max-height: 50rem;
+	max-width: 80%;
+	margin: 0px auto 0px auto;
+	/*max-width: min(80%, 980px);*/
+}
+
+.portfolio-banner-image-collection {
+	display: flex;
+	max-width: 80%;
+	margin: 0px auto 0px auto;
+}
+
+.portfolio-banner-image-collection-item {
+	max-width: 50%;
+}
+
+.portfolio-callout-font {
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
 

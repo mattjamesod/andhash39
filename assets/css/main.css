@@ -217,14 +217,6 @@ ul, menu, dir {
   border-radius: 5px;
 }
 
-
-.portfolio-banner-image {
-	height: auto;
-	max-width: 80%;
-	margin: 0px auto 0px auto;
-	/*max-width: min(80%, 980px);*/
-}
-
 .secret-cursor {
   cursor: url('/assets/images/dragon-age-cursor.png'), auto;
 }
