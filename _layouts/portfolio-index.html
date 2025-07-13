@@ -6,22 +6,22 @@ layout: header-and-footer
 	<div>
 		<h1 class="title-font">Portfolio</h1>
 		
-		<p>I have five years of experience as a developer using a wide varierty of technologies, and I consider myself a generalist who can adapt to any problem. My portfolio of independent iOS apps is below, built using native technologies (<b>Swift</b> and <b>SwiftUI</b>). I have extensive web development experience with <b>Ruby</b>, <b>SQL</b>, <b>JS</b>, and <b>C#/.NET</b>.</p>
+		<p class="large-font">I am a software developer with a wide variety of skills. Below you can learn about the iOS apps I've made. I'm also an accomplished web developer, with over five years of experience working in agile teams.</p>
 		
 		<nav>
 			<ul class="link-list">
 				<a class="block-link" href="https://github.com/mattjamesod"><li>GitHub &#8599;</li></a>
-				<!-- <a class="block-link" href="https://github.com/mattjamesod"><li>Resume &#8595;</li></a> -->
+				<a class="block-link" href="/assets/matthew_odonnell_cv.pdf" download><li>Full CV &#8595;</li></a>
 			</ul>
 		</nav>
 	</div>
 
-	<!-- <img class="image-container" src="/assets/images/matthew-working.jpg" alt="Reflection of me on my laptop, making the sign of the horns 🤘."> -->
+	<img class="image-container" src="/assets/images/matthew-working.jpg" alt="Reflection of me on my laptop, making the sign of the horns 🤘.">
 </div>
 	
 <div class="colored-container">
 	<div class="now">
-		<h2 class="title-font">Apps</h2>
+		<h2 class="title-font">iOS Apps</h2>
 			<menu class="portfolio-list">
 	    		{% for app in site.apps %}
 	    			{% include portfolio-app-item.html app=app %}
