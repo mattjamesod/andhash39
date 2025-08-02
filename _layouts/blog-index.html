@@ -2,19 +2,19 @@
 layout: header-and-footer
 ---
 
-{{ content }}
-
 {% assign posts = site.posts %}
 
 {% if posts.size > 0 %}
 	{% if posts.size > 0 %}
 	<h1 class="title-font">Writing</h1>
-		<ul class="post-list">
-			{% assign date_format_1 = "%-d" %}
-			{% assign date_format_2 = "%-b" %}
-	    	{% for post in posts %}
-	    		{% include post-index-item.html post=post %}
-	    	{% endfor %}
-	  	</ul>
+	<p>If you have lots of opinions, it's good to think them through. It's hard to do that when they're just in your head; it's easier to do it in writing.</p>
+	<ul class="post-list">
+		{% assign date_format = "%-d %B %Y" %}
+		{% assign date_format_1 = "%-d" %}
+		{% assign date_format_2 = "%-b" %}
+		{% for post in posts %}
+			{% include post-index-item.html post=post %}
+		{% endfor %}
+	</ul>
 	{% endif %}
 {% endif %}
