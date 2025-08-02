@@ -56,6 +56,12 @@ body {
 	flex-direction: column;
 }
 
+code {
+	background-color: var(--neutral-three);
+	padding: 5px;
+	border-radius: 5px;
+}
+
 .title-font {
 	font-family: "Funnel Display", serif;
 	margin-top: 0px;
