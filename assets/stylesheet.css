@@ -334,7 +334,7 @@ hr {
 	margin-inline: auto;
 	box-sizing: revert;
 	max-inline-size: var(--width);
-	width: 100%;
+	width: 90%;
 }
 
 .heading-border {
