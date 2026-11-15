@@ -1,0 +1,13 @@
+---
+title: "Babel"
+author: "R. F. Kuang"
+isbn: ""
+book_format: "paperback" 
+read: 2026/10/10
+times_read: 1
+rating: 3.0
+layout: "book"
+url: "/books/babel"
+---
+
+
