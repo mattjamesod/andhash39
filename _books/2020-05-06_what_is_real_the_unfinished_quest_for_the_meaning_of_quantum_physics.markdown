@@ -7,7 +7,7 @@ read: 2020/05/06
 times_read: 1
 rating: 4.0
 layout: "book"
-url: "/books/what_is_real?_the_unfinished_quest_for_the_meaning_of_quantum_physics"
+url: "/books/what_is_real_the_unfinished_quest_for_the_meaning_of_quantum_physics"
 ---
 
 

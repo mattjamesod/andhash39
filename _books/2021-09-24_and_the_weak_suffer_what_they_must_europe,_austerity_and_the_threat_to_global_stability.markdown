@@ -7,7 +7,7 @@ read: 2021/09/24
 times_read: 1
 rating: 3.0
 layout: "book"
-url: "/books/and_the_weak_suffer_what_they_must?_europe,_austerity_and_the_threat_to_global_stability"
+url: "/books/and_the_weak_suffer_what_they_must_europe,_austerity_and_the_threat_to_global_stability"
 ---
 
 
