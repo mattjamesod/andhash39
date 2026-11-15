@@ -296,6 +296,14 @@ hr {
 		content: "/";
 		padding-inline: 0.5rem;
 	}
+
+	@media(max-width: 700px) {
+		flex-direction: column;
+		& > *::before {
+			content: "◆";
+			padding-inline: 0.5rem;
+		}
+	}
 }
 
 .review-philosophy-list {
