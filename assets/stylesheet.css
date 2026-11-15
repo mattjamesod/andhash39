@@ -174,6 +174,10 @@ h1 {
 	&.tiny {
 		font-size: 1.5rem;
 	}
+
+	@media(max-width: 700px) {
+		font-size: 3rem;
+	}
 }
 
 h2 {
