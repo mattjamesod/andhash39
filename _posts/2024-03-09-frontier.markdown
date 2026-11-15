@@ -1,9 +1,12 @@
 ---
 layout: 			 article
 title:  			 "Frontier"
+blurb:               "Everyone has to start somewhere"
 date:   			 2024-03-09 09:00:00 +0000
 categories: 		 non-fiction
 permalink:  		 "/24/03/09/frontier"
+published: 			 2024-03-09 09:00:00 +0000
+edited:    			 2026-11-15 9:30:00 +0000
 navigation_category: writing
 ---
 

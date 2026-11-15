@@ -1,9 +1,12 @@
 ---
 layout: 			 article
 title:  			 "The 8th Wonder of the World"
+blurb:               "An unmissable English landmark. Stonehenge, who?"
 date:   			 2024-05-27 18:00:00 +0000
 categories: 		 non-fiction
 permalink:  		 "/24/05/28/the-eighth-wonder-of-the-world"
+published: 			 2024-05-28 09:00:00 +0000
+edited:    			 2026-11-15 9:30:00 +0000
 navigation_category: writing
 ---
 

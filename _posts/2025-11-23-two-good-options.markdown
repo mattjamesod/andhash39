@@ -1,9 +1,12 @@
 ---
 layout: 			 article
 title:  			 "Two Good Options"
+blurb:			     "Just chill out, man"	
 date:   			 2025-11-23 17:00:00 +0000
 categories: 		 non-fiction
 permalink:  		 "/25/11/23/two-good-options"
+published: 			 2025-11-23 09:00:00 +0000
+edited:    			 2026-11-15 9:30:00 +0000
 navigation_category: writing
 ---
 
